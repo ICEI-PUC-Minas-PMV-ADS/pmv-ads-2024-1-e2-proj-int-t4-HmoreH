@@ -50,6 +50,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
 |RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-003| O sistema deve permitir manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud) | ALTA | 
 
 ### Requisitos não Funcionais
 
