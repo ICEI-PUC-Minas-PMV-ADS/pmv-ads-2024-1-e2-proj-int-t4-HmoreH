@@ -12,8 +12,8 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 |IMAGEM|NOME| CARACTERÍSTICAS|
 |--------------------|------------------------------------|----------------------------------------|
-|![mulher](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/32981763/6e7c6c2b-cac5-4b48-8fae-0e8d070a39d6)| Olívia Barbara de Jesus           | * Idade: 70 anos <br> * Ocupação: Aposentada <br> <b> Aplicativos: </b> <br> * WhatsApp <br> * Facebook <br> <b>Frustrações</b><br> * Letras muito pequenas;<br> * Falta de objetividade nas aplicações. <br> <b>Hobbies</b><br> * História;<br> * Jardinagem.|
-|![homem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/32981763/8c4d944f-e142-4e80-a31f-eb5f33fa936e)| Thomas Ferreira           | * Idade: 75 anos <br> * Ocupação: Aposentado <br> <b> Aplicativos: </b> <br> * WhatsApp <br> <b>Frustrações</b><br> * Excesso de informação;<br> * Dificuldade de aprendizado. <br> <b>Hobbies</b><br> * História;<br> * Culinária.|
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/32981763/6e7c6c2b-cac5-4b48-8fae-0e8d070a39d6" width="350">| Olívia Barbara de Jesus           | * Idade: 70 anos <br> * Ocupação: Aposentada <br> <b> Aplicativos: </b> <br> * WhatsApp <br> * Facebook <br> <b>Frustrações</b><br> * Letras muito pequenas;<br> * Falta de objetividade nas aplicações. <br> <b>Hobbies</b><br> * História;<br> * Jardinagem.|
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/32981763/8c4d944f-e142-4e80-a31f-eb5f33fa936e" width="350">| Thomas Ferreira           | * Idade: 75 anos <br> * Ocupação: Aposentado <br> <b> Aplicativos: </b> <br> * WhatsApp <br> <b>Frustrações</b><br> * Excesso de informação;<br> * Dificuldade de aprendizado. <br> <b>Hobbies</b><br> * História;<br> * Culinária.|
 
 ## Histórias de Usuários
 
