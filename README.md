@@ -6,7 +6,7 @@ Projeto: Desenvolvimento de uma Aplicação Interativa
 
 2°Semestre
 
-O projeto consiste na criação de uma rede de centros médicos com um site de fácil acesso para agendamento de consultas. O foco é tornar o processo de marcação de consulta mais simples e intuitivo, especialmente para pessoas com 60 anos ou mais, que enfrentam desafios de acessibilidade digital. O site terá um design simplificado, com informações claras e destacadas, além de oferecer a opção de agendamento de transporte para os pacientes. O objetivo é melhorar o acesso aos serviços de saúde, reduzindo a demora no agendamento e aumentando a satisfação dos usuários, tanto no setor público quanto no privado.
+O projeto consiste na criação de uma rede de centros médicos com um site de fácil acesso para agendamento de consultas. O foco é tornar o processo de marcação de consulta mais simples e intuitivo, especialmente para pessoas com 60 anos ou mais, que enfrentam desafios de acessibilidade digital. O site terá um design simplificado, com informações claras e destacadas, além de oferecer a opção de agendamento de transporte para os pacientes. O objetivo é melhorar o acesso aos serviços de saúde, reduzindo a demora no agendamento e aumentando a satisfação dos usuários, no setor privado.
 
 ## Integrantes
 
