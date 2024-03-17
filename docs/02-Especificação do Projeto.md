@@ -8,19 +8,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|IMAGEM|NOME| CARACTERÍSTICAS|
+|--------------------|------------------------------------|----------------------------------------|
+|  | Olívia Barbara de Jesus           | * Idade: 70 anos <br> * Ocupação: Aposentada <br> <b> Aplicativos: </b> <br> * WhatsApp <br> * Facebook <br> <b>Frustrações</b><br> * Letras muito pequenas;<br> * Falta de objetividade nas aplicações. <br> <b>Hobbies</b><br> * História;<br> * Jardinagem.|
+|  | Thomas Ferreira           | * Idade: 75 anos <br> * Ocupação: Aposentado <br> <b> Aplicativos: </b> <br> * WhatsApp <br> <b>Frustrações</b><br> * Excesso de informação;<br> * Dificuldade de aprendizado. <br> <b>Hobbies</b><br> * História;<br> * Culinária.|
 
 ## Histórias de Usuários
 
@@ -28,17 +21,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Olívia Barbara de Jesus  | Quero um aplicativo de fácil uso para marcar minhas consultas           | Para conseguir usar o aplicativo sem precisar pedir ajuda.|
+|Olívia Barbara de Jesus     | Quero um aplicativo que me auxilie a conseguir um transporte até a clínica                 | Para conseguir chegar facilmente até o local do atendimento. |
+|Olívia Barbara de Jesus  | Quero consultas médicas com horários flexíveis na clínica           | Para poder agendar de acordo com meus compromissos e não ter que esperar muito tempo na sala de espera|
+|Olívia Barbara de Jesus| Desejo uma equipe médica simpática e atenciosa na clínica                | Para me sentir confortável e compreendida durante minhas consultas e exames |
+|Olívia Barbara de Jesus  | Quero instalações acessíveis na clínica, incluindo rampas e banheiros adaptados            | Para facilitar minha locomoção e garantir minha segurança|
+|Thomas Ferreira | Desejo receber orientações prévias sobre preparos para exames online na clínica| Para acompanhar minha saúde de forma rápida e conveniente, sem precisar esperar por correspondências |
+|Thomas Ferreira  | Quero agendar exames online na clínica| para evitar longas esperas e facilitar o planejamento dos meus compromissos|
+|Thomas Ferreira | Quero acessar meus resultados de exames pela internet na clínica | Para não esquecer compromissos importantes e garantir minha presença nos horários marcados |
+|Thomas Ferreira  | Quero poder acompanhar a disponibilidade de horários para consultas e exames online na clínica  | Para encontrar facilmente o melhor momento que se encaixe na minha agenda|
+|Thomas Ferreira      | Quero receber orientações sobre transporte acessível até a clínica. | Para garantir que posso chegar lá de forma segura e sem dificuldades de locomoção |
 
 ## Requisitos
 
