@@ -51,6 +51,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
 |RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
 |RF-003| O sistema deve permitir manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud) | ALTA | 
+|RF-004| O sistema deve exibir as informações do usuário do sistema | ALTA | 
+|RF-005| O sistema deve exibir em sua homepage consultórios disponíveis para agendamento | ALTA | 
+|RF-006| O sistema deve fornecer informações dos consultórios exibidos | ALTA | 
+|RF-007| O sistema deve fornecer opções de filtragem de consultórios conforme localidade, disponibilidade, assuntos e preço | MÉDIA | 
+|RF-008| O sistema deve permitir a solicitação de transporte para a consulta agendada | ALTA | 
+|RF-009| O sistema deve acessar o banco de dados dos consultórios cadastrados| ALTA | 
+|RF-010| O sistema deve permitir o agendamento de consultas direto do site | ALTA | 
+|RF-011| O sistema deve exibir as avaliações dos consultórios | MÉDIA | 
+|RF-012| O sistema deve permitir a edição de informações da consulta agendada (crud) | ALTA | 
+|RF-013|| ALTA | 
+|RF-014|| ALTA | 
+|RF-015|| ALTA | 
 
 ### Requisitos não Funcionais
 
@@ -58,6 +70,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| As páginas do site devem ser otimizadas para carregamento rápido, mesmo em dispositivos com baixa conectividade| ALTA |
+|RNF-004| A interface do sistema deve ser intuitiva e fácil de usar para pessoas de todas as idades e níveis de familiaridade com a tecnologia. | ALTA |
+|RNF-005| O site deve ser confiável e seguro com criptografia | ALTA |
+|RNF-006| O site deve ser compatível com os principais navegadores e dispositivos, incluindo smartphones e tablets.| ALTA |
+|RNF-007| O sistema deve ser modular e fácil de manter.| ALTA |
+|RNF-008| O sistema deve cumprir todas as leis e regulamentos aplicáveis à privacidade de dados| ALTA |
+|RNF-009|| ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -82,6 +101,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Verificar se os requisitos e as metas propostas estão compatíveis com o nível de estudo dos integrantes |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
