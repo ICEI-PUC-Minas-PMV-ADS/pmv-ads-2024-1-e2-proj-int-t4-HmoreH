@@ -44,7 +44,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| O sistema deve exibir as informações do usuário do sistema | ALTA | 
 |RF-005| O sistema deve exibir em sua homepage consultórios disponíveis para agendamento | ALTA | 
 |RF-006| O sistema deve fornecer informações dos consultórios exibidos | ALTA | 
-|RF-007| O sistema deve fornecer opções de filtragem de consultórios conforme localidade, disponibilidade, assuntos e preço | MÉDIA | 
+|RF-007| O sistema deve fornecer opções de filtro de consultórios conforme localidade, disponibilidade, assuntos e preço | MÉDIA | 
 |RF-008| O sistema deve permitir a solicitação de transporte para a consulta agendada | ALTA | 
 |RF-009| O sistema deve acessar o banco de dados dos consultórios cadastrados| ALTA | 
 |RF-010| O sistema deve permitir o agendamento de consultas direto do site | ALTA | 
