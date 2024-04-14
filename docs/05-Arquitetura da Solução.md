@@ -7,6 +7,20 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
+O Diagrama apresenta duas classes principais, ( Cliente e Clínica )
+
+O Cliente inseri seus dados de Cadastro/Login.
+
+A clínica faz o mesmo processo, porém acrescenta também dados de médicos que prestão seu serviço.
+
+Após o cliente navegar pelo o site, ele irá fazer um pedido e posteriormente acrescentará dados do serviço que deseja.
+
+Feito isso ele irá confirmar o agendamento do que foi solicitado, tendo a possibilidade de fazer alguma alteração futuramente.
+
+
+![UML class (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/8e1e4fc6-c8f1-4083-ab02-176a58e2296c)
+
+
 ## Modelo ER (Projeto Conceitual)
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/blob/main/docs/img/H%2BH%20v3.png">
