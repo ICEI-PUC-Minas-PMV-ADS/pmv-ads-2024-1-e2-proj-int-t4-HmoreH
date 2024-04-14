@@ -18,7 +18,7 @@ Que tipos de sites você costuma visitar ao navegar na Web? (em resumo)
 Quando visita um site, prefere ir direto para a pesquisa do site para encontrar o que procura, ou prefere clicar e navegar para encontrar o que procura? (em resumo)
 Quais são três tarefas que você acha que deveria ser capaz de realizar em um site chamado Hub More Health (ambiente voltado para a saúde)?
 
-##Perguntas de introdução - Abrir o produto a ser testado:
+## Perguntas de introdução - Abrir o produto a ser testado:
 
 OK, ótimo. Terminamos com as perguntas e podemos começar a olhar as coisas.
 Primeiro, vou pedir para você olhar esta página e me dizer no que você clicaria primeiro? (30 segundos no máximo.)
@@ -28,14 +28,14 @@ Quem é o público-alvo? (30 segundos no máximo.)
 O que você acha que pode fazer aqui? (30 segundos no máximo.)
 Instruções: Obrigado. Agora vou pedir para você tentar fazer algumas tarefas específicas. Vou ler cada uma em voz alta e apenas perguntar se você gostaria que eu repetisse a tarefa a qualquer momento (e fornecer uma cópia impressa). E novamente, o máximo possível, nos ajudará se você puder pensar em voz alta enquanto avança.
 
-##Perguntas de busca:
+## Perguntas de busca:
 
 Pergunta #1: Por favor, use a pesquisa do site para encontrar suas informações pessoais. (Quando terminar) Como foi?
 Pergunta #2:Por favor, tente achar consultórios disponíveis para agendamento específicos da área psicológica. (Quando terminar) Como foi?
 Pergunta #3: Tente achar consultórios disponíveis para agendamento, conforme a área psicológica e dentro da sua localidade (cidade). (Quando terminar) Como foi?
 Pergunta #4: Tente achar consultórios disponíveis para agendamento, conforme a área psicológica, dentro da sua localidade e conforme o valor de até R$ 200,00. (Quando terminar) Como foi?
 
-##Tarefas:
+## Tarefas:
 
 Pergunta 1. Você percebeu que, de alguns meses pra cá, sua capacidade de ampla visão está caindo. Diante disso, resolveu marcar uma consulta com um oftalmologista. Por favor, encontre algumas informações neste site. Objetivo do teste: Testar a opção de agendamento de consulta direto do site. Caminho esperado: Cadastro > Home > Selecionar foco da enfermidade ou pesquisar pelo nome > Clicar no consultório clicando no card que deseja > Clicar em agendar > Selecionar o horário disponível que mais agrada > Agendar consulta
 Participante #1 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações:
@@ -48,7 +48,7 @@ Participante #2 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Ob
 Participante #3 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações:
 Participante #1: Pedro Participante #2 Aparecida Participante #3 Paulo
 
-##Debriefing
+## Debriefing
 
 1.O que você acha do site? É algo que você usaria?
 2.Qual é a sua coisa favorita sobre este site?
@@ -65,7 +65,7 @@ Participante #3:
 4.Você tem alguma recomendação de mudanças na aparência ou funcionamento deste site? 
 Participante #1: Acho que poderiam incluir mais funcionalidades de interagir diretamente com o consultório através do site, sem precisar entrar em contato diretamente.
 
-##FIM DA PARTE DE TESTE
+## FIM DA PARTE DE TESTE
 
 Obrigado, isso foi muito útil.
 (Se houver pessoas em outra sala, continue aqui) Se me der licença por um minuto, vou ver se as pessoas da equipe têm alguma pergunta de acompanhamento que gostariam que eu fizesse.
