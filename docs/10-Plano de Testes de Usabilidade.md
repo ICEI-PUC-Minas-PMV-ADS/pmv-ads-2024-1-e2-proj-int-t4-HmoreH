@@ -37,15 +37,15 @@ Pergunta #4: Tente achar consultórios disponíveis para agendamento, conforme a
 
 ## Tarefas:
 
-Pergunta 1. Você percebeu que, de alguns meses pra cá, sua capacidade de ampla visão está caindo. Diante disso, resolveu marcar uma consulta com um oftalmologista. Por favor, encontre algumas informações neste site. Objetivo do teste: Testar a opção de agendamento de consulta direto do site. Caminho esperado: Cadastro > Home > Selecionar foco da enfermidade ou pesquisar pelo nome > Clicar no consultório clicando no card que deseja > Clicar em agendar > Selecionar o horário disponível que mais agrada > Agendar consulta
-Participante #1 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações:
-Participante #2 Sucedido: □ Sucedido com dificuldade média: □ Falhou: □ Observações: 
-Participante #3 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações:
-Participante #1: Pedro Participante #2 Aparecida Participante #3 Paulo
-Pergunta 2. Você percebeu que alguns dados pessoais estão desatualizados e precisa ajustá-los. Objetivo do teste: Verificar a funcionalidade da opção de atualizar os dados. Caminho esperado: Login > Conta > Editar (Conforme dado desejado)
-Participante #1 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações:
-Participante #2 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações:
-Participante #3 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações:
+Pergunta 1. Você percebeu que, de alguns meses pra cá, sua capacidade de ampla visão está caindo. Diante disso, resolveu marcar uma consulta com um oftalmologista. Por favor, encontre algumas informações neste site. <br>Objetivo do teste: Testar a opção de agendamento de consulta direto do site. <br>Caminho esperado: Cadastro > Home > Selecionar foco da enfermidade ou pesquisar pelo nome > Clicar no consultório clicando no card que deseja > Clicar em agendar > Selecionar o horário disponível que mais agrada > Agendar consulta <br>
+Participante #1 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
+Participante #2 Sucedido: □ Sucedido com dificuldade média: □ Falhou: □ Observações: <br>
+Participante #3 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
+Participante #1: Pedro Participante #2 Aparecida Participante #3 Paulo <br>
+Pergunta 2. Você percebeu que alguns dados pessoais estão desatualizados e precisa ajustá-los. <br> Objetivo do teste: Verificar a funcionalidade da opção de atualizar os dados. <br> Caminho esperado: Login > Conta > Editar (Conforme dado desejado) <br>
+Participante #1 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
+Participante #2 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
+Participante #3 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
 Participante #1: Pedro Participante #2 Aparecida Participante #3 Paulo
 
 ## Debriefing
