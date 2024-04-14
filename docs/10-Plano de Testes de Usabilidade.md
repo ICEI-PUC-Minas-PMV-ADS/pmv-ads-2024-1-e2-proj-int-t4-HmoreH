@@ -42,7 +42,7 @@ Participante #1 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Ob
 Participante #2 Sucedido: □ Sucedido com dificuldade média: □ Falhou: □ Observações: <br>
 Participante #3 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
 Participante #1: Pedro Participante #2 Aparecida Participante #3 Paulo <br>
-Pergunta 2. Você percebeu que alguns dados pessoais estão desatualizados e precisa ajustá-los. <br> Objetivo do teste: Verificar a funcionalidade da opção de atualizar os dados. <br> Caminho esperado: Login > Conta > Editar (Conforme dado desejado) <br>
+Pergunta 2. Você percebeu que alguns dados pessoais estão desatualizados e precisa ajustá-los. <br> # Objetivo do teste: Verificar a funcionalidade da opção de atualizar os dados. <br> Caminho esperado: Login > Conta > Editar (Conforme dado desejado) <br>
 Participante #1 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
 Participante #2 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
 Participante #3 Sucedido: □ Sucedido com dificuldade baixa: □ Falhou: □ Observações: <br>
