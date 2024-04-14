@@ -58,11 +58,11 @@ Participante #2: Gostei muito do site! Claro! Achei a ideia muito boa e o site m
 Eu gostei muito da opção que mostra os horários disponíveis. <br>
 Participante #3 Adorei tudo! Com certeza! Como sou um homem de 60 anos, considerando minhas condições, isso irá me ajudar muito a economizar tempo e dinheiro.<br>
 Eu gostei muito da opção de horários disponíveis, pois facilita a economizar tempo.<br>
-3.Qual é a sua coisa MENOS favorita sobre este site?
-Participante #1: 
-Participante #2: 
-Participante #3: 
-4.Você tem alguma recomendação de mudanças na aparência ou funcionamento deste site? 
+3.Qual é a sua coisa MENOS favorita sobre este site? <br>
+Participante #1: <br>
+Participante #2: <br>
+Participante #3: <br>
+4.Você tem alguma recomendação de mudanças na aparência ou funcionamento deste site? <br>
 Participante #1: Acho que poderiam incluir mais funcionalidades de interagir diretamente com o consultório através do site, sem precisar entrar em contato diretamente.
 
 ## FIM DA PARTE DE TESTE
