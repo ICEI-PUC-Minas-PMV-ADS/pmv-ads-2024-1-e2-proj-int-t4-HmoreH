@@ -30,9 +30,9 @@ Instruções: Obrigado. Agora vou pedir para você tentar fazer algumas tarefas 
 
 ## Perguntas de busca:
 
-Pergunta #1: Por favor, use a pesquisa do site para encontrar suas informações pessoais. (Quando terminar) Como foi?
-Pergunta #2:Por favor, tente achar consultórios disponíveis para agendamento específicos da área psicológica. (Quando terminar) Como foi?
-Pergunta #3: Tente achar consultórios disponíveis para agendamento, conforme a área psicológica e dentro da sua localidade (cidade). (Quando terminar) Como foi?
+Pergunta #1: Por favor, use a pesquisa do site para encontrar suas informações pessoais. (Quando terminar) Como foi? <br>
+Pergunta #2:Por favor, tente achar consultórios disponíveis para agendamento específicos da área psicológica. (Quando terminar) Como foi? <br>
+Pergunta #3: Tente achar consultórios disponíveis para agendamento, conforme a área psicológica e dentro da sua localidade (cidade). (Quando terminar) Como foi? <br>
 Pergunta #4: Tente achar consultórios disponíveis para agendamento, conforme a área psicológica, dentro da sua localidade e conforme o valor de até R$ 200,00. (Quando terminar) Como foi?
 
 ## Tarefas:
