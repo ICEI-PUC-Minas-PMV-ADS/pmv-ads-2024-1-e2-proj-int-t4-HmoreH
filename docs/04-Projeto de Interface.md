@@ -9,6 +9,12 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
+O Diagrama de Fluxo abaixo representa possíveis etapas que o usuário poderá realizar no site.
+Etapas destacadas no modelo:
+- Login: Autenticação com usuário e senha para acesso ao perfil e agendamento;
+- Cadastro: Para acesso aos serviços do site;
+- Busca de Serviços: Disponível à todos os usuários, porém funções como agendamento e perfil com histórico, disponivel apenas aos cadastrados e autenticados no site. 
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/32981763/e1950c47-9095-414c-8c54-a2fa3b78648a)
 
 
