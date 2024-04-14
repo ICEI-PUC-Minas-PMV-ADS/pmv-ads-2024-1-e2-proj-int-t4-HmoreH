@@ -50,14 +50,14 @@ Participante #1: Pedro Participante #2 Aparecida Participante #3 Paulo
 
 ## Debriefing
 
-1.O que você acha do site? É algo que você usaria?
-2.Qual é a sua coisa favorita sobre este site?
-Participante #1: Adorei o site, a harmonia das cores, eu que gosto muito da área da arte achei muito legal! Com certeza usaria! A saúde é algo que não podemos ficar sem, e esse site veio justamente para facilitar nossa vida porque, ainda mais pra quem vive sozinho, é uma forma muito mais simples se comparado ao modo convencional.
-O que eu mais gostei dentro do site foram as cores, o design em si.
-Participante #2: Gostei muito do site! Claro! Achei a ideia muito boa e o site muito fácil de ser manipulado, exceto numa questão dentro da opção do consultório pela localização das informações, mas foi só efeito da primeira vez há há há! 
-Eu gostei muito da opção que mostra os horários disponíveis 
-Participante #3 Adorei tudo! Com certeza! Como sou um homem de 60 anos, considerando minhas condições, isso irá me ajudar muito a economizar tempo e dinheiro.
-Eu gostei muito da opção de horários disponíveis, pois facilita a economizar tempo.
+1.O que você acha do site? É algo que você usaria? <br>
+2.Qual é a sua coisa favorita sobre este site? <br>
+Participante #1: Adorei o site, a harmonia das cores, eu que gosto muito da área da arte achei muito legal! Com certeza usaria! A saúde é algo que não podemos ficar sem, e esse site veio justamente para facilitar nossa vida porque, ainda mais pra quem vive sozinho, é uma forma muito mais simples se comparado ao modo convencional. <br>
+O que eu mais gostei dentro do site foram as cores, o design em si. <br>
+Participante #2: Gostei muito do site! Claro! Achei a ideia muito boa e o site muito fácil de ser manipulado, exceto numa questão dentro da opção do consultório pela localização das informações, mas foi só efeito da primeira vez há há há! <br>
+Eu gostei muito da opção que mostra os horários disponíveis. <br>
+Participante #3 Adorei tudo! Com certeza! Como sou um homem de 60 anos, considerando minhas condições, isso irá me ajudar muito a economizar tempo e dinheiro.<br>
+Eu gostei muito da opção de horários disponíveis, pois facilita a economizar tempo.<br>
 3.Qual é a sua coisa MENOS favorita sobre este site?
 Participante #1: 
 Participante #2: 
