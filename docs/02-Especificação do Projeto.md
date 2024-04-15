@@ -38,21 +38,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
-|RF-003| O sistema deve permitir manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud) | ALTA | 
-|RF-004| O sistema deve exibir as informações do usuário do sistema | ALTA | 
-|RF-005| O sistema deve exibir em sua homepage consultórios disponíveis para agendamento | ALTA | 
-|RF-006| O sistema deve fornecer informações dos consultórios exibidos | ALTA | 
-|RF-007| O sistema deve fornecer opções de filtro de consultórios conforme localidade, disponibilidade, assuntos e preço | MÉDIA | 
-|RF-008| O sistema deve permitir a solicitação de transporte para a consulta agendada | ALTA | 
-|RF-009| O sistema deve acessar o banco de dados dos consultórios cadastrados| ALTA | 
-|RF-010| O sistema deve permitir o agendamento de consultas direto do site | ALTA | 
-|RF-011| O sistema deve exibir as avaliações dos consultórios | MÉDIA | 
-|RF-012| O sistema deve permitir a edição de informações da consulta agendada (crud) | ALTA | 
-|RF-013| Disponibilizar os meios de comunicação da clinica de forma acessivel, por exemplo, dispor de um botão para o WhatsApp, quando houver esse meio de contato.| MÉDIA | 
-|RF-014|| ALTA | 
-|RF-015|| ALTA | 
+|RF-001| A aplicação deve permitir que os usuários criem contas pessoais | ALTA | 
+|RF-002| A aplicação deve permitir que o usuário realize login em sua conta pessoal | ALTA |
+|RF-003| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |
+|RF-004| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-005| O sistema deve permitir manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud) | ALTA | 
+|RF-006| O sistema deve exibir as informações do usuário do sistema | ALTA | 
+|RF-007| O sistema deve exibir em sua homepage consultórios disponíveis para agendamento | ALTA | 
+|RF-008| O sistema deve fornecer informações dos consultórios exibidos | ALTA | 
+|RF-009| O sistema deve fornecer opções de filtro de consultórios conforme localidade, disponibilidade, assuntos e preço | MÉDIA | 
+|RF-010| O sistema deve permitir a solicitação de transporte para a consulta agendada | ALTA | 
+|RF-011| O sistema deve acessar o banco de dados dos consultórios cadastrados| ALTA | 
+|RF-012| O sistema deve permitir o agendamento de consultas direto do site | ALTA | 
+|RF-013| O sistema deve exibir as avaliações dos consultórios | MÉDIA | 
+|RF-014| O sistema deve permitir a edição de informações da consulta agendada (crud) | ALTA | 
+|RF-015| Disponibilizar os meios de comunicação da clinica de forma acessivel, por exemplo, dispor de um botão para o WhatsApp, quando houver esse meio de contato.| MÉDIA | 
 
 ### Requisitos não Funcionais
 
