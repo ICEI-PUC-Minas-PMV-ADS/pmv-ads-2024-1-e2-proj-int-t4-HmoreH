@@ -51,8 +51,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| O sistema deve acessar o banco de dados dos consultórios cadastrados| ALTA | 
 |RF-012| O sistema deve permitir o agendamento de consultas direto do site | ALTA | 
 |RF-013| O sistema deve exibir as avaliações dos consultórios | MÉDIA | 
-|RF-014| O sistema deve permitir a edição de informações da consulta agendada (crud) | ALTA | 
-|RF-015| Disponibilizar os meios de comunicação da clinica de forma acessivel, por exemplo, dispor de um botão para o WhatsApp, quando houver esse meio de contato.| MÉDIA | 
+|RF-013| O sistema deve permitir avaliar consultórios entre 1 e 5 estrelas | MÉDIA |
+|RF-015| O sistema deve permitir a edição de informações da consulta agendada (crud) | ALTA | 
+|RF-016| Disponibilizar os meios de comunicação da clinica de forma acessivel, por exemplo, dispor de um botão para o WhatsApp, quando houver esse meio de contato.| MÉDIA | 
 
 ### Requisitos não Funcionais
 
