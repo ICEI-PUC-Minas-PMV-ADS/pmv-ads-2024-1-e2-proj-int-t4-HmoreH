@@ -18,7 +18,8 @@ Após o cliente navegar pelo o site, ele irá fazer um pedido e posteriormente a
 Feito isso ele irá confirmar o agendamento do que foi solicitado, tendo a possibilidade de fazer alguma alteração futuramente.
 
 
-![UML class (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/8e1e4fc6-c8f1-4083-ab02-176a58e2296c)
+![UML-Atualizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/df0d4d1f-0b6b-425d-9b8c-5f24de536542)
+
 
 
 ## Modelo ER (Projeto Conceitual)
