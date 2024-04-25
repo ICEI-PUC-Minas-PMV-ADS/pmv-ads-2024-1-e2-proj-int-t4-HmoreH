@@ -81,4 +81,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![Untitled Workspace (1)](docs/img/Casos_de_uso.png)
+![Untitled Workspace (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/blob/main/docs/img/Casos_de_uso.png)
