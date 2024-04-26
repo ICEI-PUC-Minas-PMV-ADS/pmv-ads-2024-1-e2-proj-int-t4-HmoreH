@@ -20,7 +20,8 @@ Feito isso ele irá confirmar o agendamento do que foi solicitado, tendo a possi
 
 
 
-![DiagramaDeClasse](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/69a85bd3-2945-4c77-adb1-6d709b25cb6c)
+![DiagramaAtualizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/e01a3a98-6084-44bf-8499-7aee67b73639)
+
 
 
 
