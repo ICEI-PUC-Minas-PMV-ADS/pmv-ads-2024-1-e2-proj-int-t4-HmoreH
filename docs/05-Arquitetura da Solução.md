@@ -18,7 +18,8 @@ Após o cliente navegar pelo o site, ele irá fazer um pedido e posteriormente a
 Feito isso ele irá confirmar o agendamento do que foi solicitado, tendo a possibilidade de fazer alguma alteração futuramente.
 
 
-![UML class atualizado 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/0626c666-37a5-4b7c-8532-6eec898e9391)
+
+![UMLCLASS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/92edc4df-8ffe-4696-a92c-e17a3bb52c3b)
 
 
 
