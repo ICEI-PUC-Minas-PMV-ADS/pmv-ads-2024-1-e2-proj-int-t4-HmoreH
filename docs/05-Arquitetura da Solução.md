@@ -19,7 +19,8 @@ Feito isso ele irá confirmar o agendamento do que foi solicitado, tendo a possi
 
 
 
-![UMLCLASS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/92edc4df-8ffe-4696-a92c-e17a3bb52c3b)
+![UMLCLASS2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/335b99be-172d-4052-8111-1601505808a9)
+
 
 
 
