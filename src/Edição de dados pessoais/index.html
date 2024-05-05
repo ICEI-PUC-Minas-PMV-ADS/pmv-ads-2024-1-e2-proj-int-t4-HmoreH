@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        .navbar-colorida {
+            background-color: #77B0AA;
+        }
+
+        .navbar-light .navbar-brand {
+            color: #135D66;
+            font-size: 50px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+        .navbar-light .navbar-brand span {
+            color: white
+        }
+
+        .navbar button {
+            background-color: #135D66;
+            color: #ffffff;
+            border: 50px;
+            border-radius: 50px;
+            padding: 10px 20px;
+            margin-right: 20px;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: white
+        }
+
+        #caixa {
+            position: relative;
+        }
+
+        .imagem {
+            width: 300px;
+            position: relative;
+            left: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-colorida">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">H<span>+</span>H</a>
+            <!-- Botão para menu responsivo -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Itens de navegação (adicionar links posteriormente)-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="card my-5 col-lg-4 col-sm-12 border-1 shadow rounded float" id="caixa">
+                <img src="garoto.png" class="imagem" alt="...">
+                <div class="card-body">
+                    <p class="card-text">
+                    <div class="fs-2 text-center">
+                        Guilherme Brito Fonseca e Silva
+                    </div>
+                    <br><br>
+                    <div class="fs-4 text-start">
+                        Endereço: <span class="conta"></span>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                <path fill-rule="evenodd"
+                                    d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="fs-4 text-start">
+                        Telefone: <span class="conta"></span>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                            class="bi bi-pencil-square" viewBox="0 0 16 16">
+                            <path
+                                d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                            <path fill-rule="evenodd"
+                                d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                        </svg>
+                    </a>
+                    </div>
+                    <br>
+                    <div class="fs-4 text-start">
+                        Email: <span class="conta"></span>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                            class="bi bi-pencil-square" viewBox="0 0 16 16">
+                            <path
+                                d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                            <path fill-rule="evenodd"
+                                d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                        </svg>
+                    </a>
+                    </div>
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="card col-lg-2 my-5 col-sm-6 border-1 shadow rounded float">
+                <div class="card-body">
+                    <p class="card-text">
+                    <div class="fs-4 text-center">
+                        Serviços agendados
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="card col-lg-2 my-5 col-sm-6 border-1 shadow rounded float" style="background-color: #135D66;">
+                <div class="card-body">
+                    <p class="card-text">
+                    <div class="fs-4 text-center text-light">
+                        Serviços realizados
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</body>
+
+</html>
