@@ -56,6 +56,29 @@ Escala de avaliação
 |Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 2 <br>Aval 4: 2 <br>Aval 5: 2 |1,6 |2 |Precisam investir mais em avisos e possibilidades diversas de soluções para erros, como agendamentos incorretos.	Constantes reiterações de escolhas, prevenindo que o usuário não esteja focado no que está fazendo |  |	
 	
 
+# Avaliação da Usabilidade Funcional (feita pelo usuário que faz transações – casos de uso) – Dinâmica
+
+## As colunas marcadas com * só devem ser preenchidas após o teste ser realizado
+
+
+|Atividade a ser realizada	|Feedback do usuário* |Considerações (quais os problemas, deficiências, limitações, etc.)* |Sugestão de melhorias* |
+|--------------------|------------------------------|-----------|-------------|
+|Cadastro paciente	 |                              |		    |             |
+Cadastro consultório |                              |		    |             |                        			
+Login do paciente |                              |		    |             |		
+Login do consultório |                              |		    |             |			
+Filtrar consultórios |                              |		    |             |			
+Consultar informações de consultórios |                              |		    |             |		
+Visualizar dados pessoais |                              |		    |             |			
+Editar dados pessoais |                              |		    |             |			
+Agendar consulta |                              |		    |             |			
+Modificar consulta |                              |		    |             |			
+Avaliar consulta |                              |		    |             |			
+Solicitar transporte |                              |		    |             |			
+Inserir dados referentes a disponibilidade (consultório)			
+Listar agendamentos (consultório) |                              |		    |             |			
+Recuperar dados de um cliente |                              |		    |             |			
+
 
 
 
