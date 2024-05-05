@@ -35,17 +35,17 @@ Proposta de escala (podem criar outra ):
 
 |Escala	|Discriminação| <br>
 |--------------------|------------------------------------|----------------------------------------|
-|Nível 0: <br>Nível 1:. <br>Nível 2:. <br>Nível 3:. <br>Nível 4:.
+|Nível 0: <br>Nível 1:. <br>Nível 2:. <br>Nível 3:. <br>Nível 4:.|Não é encarado necessariamente como um problema de usabilidade. <br>Problema estético que não tem necessidade de ser corrigido, a menos que haja tempo e recurso disponível. <br>Pequeno problema com baixa prioridade na correção. <br>Problema com alta prioridade de correção. <br>Catástrofe de usabilidade, ou seja, o produto só será liberado se a correção for feita.|
 
-| Não é encarado necessariamente como um problema de usabilidade. <br>
 
-Problema estético que não tem necessidade de ser corrigido, a menos que haja tempo e recurso disponível. <br>
 
-Pequeno problema com baixa prioridade na correção. <br>
 
-Problema com alta prioridade de correção. <br>
 
-Catástrofe de usabilidade, ou seja, o produto só será liberado se a correção for feita.|
+
+
+
+
+
 
 
 	
