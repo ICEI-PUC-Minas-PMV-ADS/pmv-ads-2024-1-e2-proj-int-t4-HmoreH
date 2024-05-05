@@ -45,7 +45,7 @@ Escala de avaliação
 
 |Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
 |--------------------|------------------------------|-----------|-------------|---------------------|------------|
-|--------------------| No exemplo são 3 avaliadores |-----------|-------------|---------------------|------------|
+|                    | No exemplo são 3 avaliadores |           |             |                     |            |
 	
 					
 Visibilidade do status	Aval 1: 1
