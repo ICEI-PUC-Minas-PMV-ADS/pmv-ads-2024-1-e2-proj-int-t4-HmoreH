@@ -19,7 +19,6 @@ Template de Avaliação Heurística
 
 Identificação
 |Nome Projeto |Hub More Health | <br>
-|--------------------|------------------------------------|----------------------------------------|
 |Grupo	|5 | 
 |Integrantes |Guilherme Brito Fonseca e Silva <br>Helena de Souza Lima <br>Mariana Vieira Santos <br>Natan de Souza Carvalho <br> Walter Santos Claudino|
 
