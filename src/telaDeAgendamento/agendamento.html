@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Consulta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="agendamento.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-colorida">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">H<span>+</span>H</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </button>
+                    <button class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content container">
+        <div class="row">
+            <div class="col-4 left-section">
+                <div><img src="imagens/ultraSaudeLogo.png" alt="Logo da Clínica"></div>
+                <div>
+                    <p>Endereço: <i>Puxar do cadastro da clínica</i></p>
+                    <p>Telefone: <i>Puxar do cadastro da clínica</i></p>
+                    <p>Email: <i>Puxar do cadastro da clínica</i></p>
+                    <p><i>CNPJ</i></p>
+                </div>
+            </div>
+
+            <div class="col-8 right-section">
+                <h2>Agendamento de consulta para</h2>
+                <select id="nomesCadastrados">
+                    <option value="nome1">Joana Reis</option>
+                    <option value="nome2">Miguel Felipe</option>
+                    <option value="nome3">Luíza Reis</option>
+                    <option value="nome4">Gabriela Vitoria</option>
+                </select>
+                <form>
+                    <div class="form-group">
+                        <h2>Serviço:</h2>
+                        <select id="opcoes">
+                            <option value="exame">Exame</option>
+                            <option value="consulta">Consulta</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h2>Especialidade:</h2>
+                        <select id="opcoesEsp">
+                            <option value="esp1">Clínica Geral</option>
+                            <option value="esp2">Dermatologia</option>
+                            <option value="esp3">Ortopedia</option>
+                            <option value="esp4">Ginecologia/Obstetrícia</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h2>Data/Hora desejada:</lh2>
+                            <input type="datetime-local" id="data-hora" name="data-hora">
+                            <div class="accordion" id="accordionSchedule">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Disponibilidade da Clínica
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <iframe
+                                                src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=America%2FAraguaina&bgcolor=%23ffffff&mode=week&showCalendars=0&showTabs=0&showPrint=0&showTz=0&title=Agenda%20da%20Cl%C3%ADnica&src=cHQuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
+                                                width="600" height="600" frameborder="0" scrolling="no"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="button">Solicitar Agendamento</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
