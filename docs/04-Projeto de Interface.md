@@ -104,6 +104,42 @@ Quando o cliente clicar em agendar, será essa página que aparecerá logo em se
 ![Tela de Agendamento de Exame ou Consulta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/cd2fba31-9bac-4752-ac07-8e612549d0fa)
 
 
+# Protótipo de Alta Fidelidade
+
+![Group 31](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/5d8c7bfb-9453-4419-a6dd-1d61dd13c0fb)
+
+# - # 
+
+![Group 56](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/53c1ba04-076c-449c-bb87-50875f8a4313)
+
+# - #
+
+![Group 73](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/ffabe6d5-be72-4570-8c3b-6122de57a4e8)
+
+# - #
+
+![Group 33](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/a698428e-4869-4ff9-9178-4c486595d808)
+
+# - # 
+
+![Group 62](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/b1019780-fa06-4f56-9638-d26d86dac473)
+
+# - #
+
+![Group 71](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/72467a36-f47c-4989-8262-90a14c1a1965)
+
+# - #
+
+![Group 72](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/11a2de28-a8d1-467f-b3cd-74bf7d8b5d12)
+
+
+
+
+# - # 
+
+Software de Wireframe usado : https://www.figma.com 
+
+
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 

@@ -23,7 +23,7 @@ Feito isso ele irá confirmar o agendamento do que foi solicitado, tendo a possi
 ![DiagramaAtualizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/e01a3a98-6084-44bf-8499-7aee67b73639)
 
 
-
+Software utilizado para criar o diagrama : https://www.lucidchart.com/pages/?
 
 
 

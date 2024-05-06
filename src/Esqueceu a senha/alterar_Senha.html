@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+        <style>
+            #caixa {
+                background-color: #135D66;;
+            }
+            .btn {
+                background-color: white;
+            }
+        </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row my-5">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-5 border border-1 rounded-1 shadow" id="caixa">
+
+                <form class="border border-1 rounded-1 shadow p-5">
+
+                    <div class="mb-3">
+                        <h3 class="text-light ms-4 mt-1">Enviaremos uma email para auterar sua senha</h3>
+                        <label for="InputEmail1" class="form-label text-light my-3">Endereço de email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-light">Precisamos do email para autenticá-lo</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Confirmemail" class="form-label text-light my-3">Confirme email:</label>
+                        <input type="email" class="form-control" id="Confirmemail">
+                        <div id="emailHelp" class="form-text text-light">Para confirmar que não é um robô</div>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
