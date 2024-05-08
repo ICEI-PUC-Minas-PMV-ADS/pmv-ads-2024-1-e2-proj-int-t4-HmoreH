@@ -1,0 +1,177 @@
+/* body por completo */
+
+
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+
+/* Essa parte se trada do lado esquerdo da página de login */
+
+
+.coluna-esquerda {
+    background-color: #76BFAC;
+    height: 100%;
+    width: 30%;
+    padding: 3%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.coluna-esquerda span {
+    color: #FFF;
+}
+
+.coluna-esquerda h1 {
+    font-size: 150px;
+    text-align: center;
+    margin-top: 13%;
+    
+}
+
+.coluna-esquerda h2 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 35px;
+}
+
+.coluna-esquerda h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+.coluna-esquerda h5{
+    font-size: 25px;
+    margin-top: 35%;
+}
+
+.btn {
+        font-size: 120%;
+        width: 80%;
+        height: 5%;
+        background-color: #E3FEF7;
+        padding: 2% 5%;
+        border: 0px solid black;
+        border-radius: 30px;
+        color: #000;
+        margin: 0 auto;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        
+        
+}
+
+.btn:active {
+    transform: scale(0.96);
+    box-shadow: 0 0 10px black;
+}
+
+/* Essa parte se trada do lado direito da página de login */
+
+.coluna-direita {
+    background-color: #FFF;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 8% 0;
+}
+
+.coluna-direita h1 {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: none;
+
+}
+
+.option-button {
+    text-align: center;
+}
+.btn2 {
+    background-color: #FFF;
+    font-size: 150%;
+    text-align: center;
+    width: 20%;
+    padding: 1.5%;
+    cursor: pointer;
+    margin: 0 45px;
+    border-radius: 15px;
+    box-shadow: 2px 0px 2px 0px;
+    transition: all 0.7s;
+    
+}
+
+/* Essas linhas e código css abaixo, servem para fazer com que o botão ''btn2'' fique selecionado */
+.btn2:hover{background-color:#135D66;}
+
+.btn2:focus{background-color:#135D66;}
+/* linhas de teste que não funcionaram ksksk
+.social-link {
+    justify-content: center;
+
+}
+.social-link img{
+    width: 5%;
+    height: 7%;
+    margin: auto;
+    display: flex;
+    
+}
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 10vh; 
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+}
+
+.social-link img {
+    margin: 0 15px;
+    width: 50px;
+    height: auto; 
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.social-link img:active {
+    transform: scale(0.9);
+}
+
+
+input{
+    width: 90vh;
+    height: 60px;
+    display: block;
+    margin: 0 auto 25px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.btn3 {
+    width: 45vh;
+    height: 50px;
+    margin-left: 50%;
+    border-radius: 25px;
+    background-color: #76BFAC;
+    font-size: 35px;
+    cursor: pointer;
+
+
+
+}
+
+.btn3:active {
+    transform: scale(0.96);
+    box-shadow: 0 0 10px black;
+}

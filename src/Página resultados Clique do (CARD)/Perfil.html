@@ -1,0 +1,284 @@
+<html lang="pt-br"></html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <style>
+        .navbar-colorida { background-color: 77B0AA;}
+        .navbar-light .navbar-brand {
+            color: 135D66; 
+            font-size: 50px; 
+            font-family: sans-serif;
+            font-weight: 600;}
+        .navbar-light .navbar-brand span {color: white}
+        .navbar button {
+            background-color: 135D66; 
+            color: #ffffff; 
+            border: 50px ; 
+            border-radius: 50px; 
+            padding: 10px 20px; 
+            margin-right: 20px;}
+            .navbar-light .navbar-nav .nav-link {
+            color: white
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: #f0f0f0;
+        }
+        .card-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 200px;
+            margin-bottom: 100px;
+        }
+        .card{
+            width: 325px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+            margin: 20px;
+
+        }
+
+        .card img{
+            width: 100%;
+            height: auto;
+        }
+        .card-content{
+            padding: 16px;
+            background-color: #77B0AA;
+        }
+
+        .card-contente h3{
+            font-size: 28px;
+            margin-bottom: 8px;
+            
+        }
+
+        .card-content p{
+            color: #000;
+            font-size: 15px;
+            line-height: 1.3;
+        }
+        .card-content .btn{
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #003C43;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 16px;
+            color: #FFF;
+        }
+        /* teste */
+        *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #000;
+    }
+    footer{
+        background: #77B0AA;
+        padding-top: 50px;
+    }
+    .container{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+        
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+        
+    }
+    .list{
+        padding: 0;
+        
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #003C43;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: #000;
+        font-size: 50px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: #003C43;
+    }
+    .social-icons i:hover{
+        color: #003C43;
+    }
+    .bottom-bar{
+        background: #003C43;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: #77B0AA;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+    </style>
+</head>
+
+<!-- Barra de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-colorida">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">H<span>+</span>H</a>
+        <!-- Botão para menu responsivo -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Itens de navegação (adicionar links posteriormente)-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <button class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </button>
+                <button class="nav-item">
+                    <a class="nav-link" href="#">Serviços</a>
+                </button>
+                <button class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </button>
+                <button class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </button>
+                <button class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </button>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="/img/clinicaexemplo.jpeg" alt="">
+            <div class="card-content">
+                <h3>Card 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <a href="" class="btn">Agendar</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/clinicaexemplo.jpeg" alt="">
+            <div class="card-content">
+                <h3>Card 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <a href="" class="btn">Agendar</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/clinicaexemplo.jpeg" alt="">
+            <div class="card-content">
+                <h3>Card 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <a href="" class="btn">Agendar</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/clinicaexemplo.jpeg" alt="">
+            <div class="card-content">
+                <h3>Card 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <a href="" class="btn">Agendar</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/clinicaexemplo.jpeg" alt="">
+            <div class="card-content">
+                <h3>Card 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <a href="" class="btn">Agendar</a>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contato</h3>
+                <p>Email:Info@example.com</p>
+                <p>Telefone (00) 0 0000-0000</p>
+                <p>Endereço: Rua Exemplo da Silva </p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SERVIÇOS</a></li>
+                    <li><a href="">SOBRE</a></li>
+                    <li><a href="">CONTATO</a></li>
+                    <li><a href="">LOGIN</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 your company . All rights reserved</p>
+        </div>
+    </footer>
+</body>
