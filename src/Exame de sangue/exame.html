@@ -36,7 +36,7 @@
             color: white
         }
 
-        
+
         /*.pai {
             position: relative;
         }*/
@@ -45,44 +45,47 @@
             background: #76BFAC;
         }
 
-        .card-container{
+        .card-container {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             margin-top: 200px;
             margin-bottom: 100px;
         }
-        .card{
+
+        .card {
             width: 325px;
             background-color: #f0f0f0;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0, 2);
             margin: 20px;
 
         }
 
-        .card img{
+        .card img {
             width: 100%;
             height: auto;
         }
-        .card-content{
+
+        .card-content {
             padding: 16px;
             background-color: #77B0AA;
         }
 
-        .card-contente h3{
+        .card-contente h3 {
             font-size: 28px;
             margin-bottom: 8px;
-            
+
         }
 
-        .card-content p{
+        .card-content p {
             color: #000;
             font-size: 15px;
             line-height: 1.3;
         }
-        .card-content .btn{
+
+        .card-content .btn {
             display: inline-block;
             padding: 8px 16px;
             background-color: #003C43;
@@ -127,41 +130,39 @@
         </div>
     </nav>
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <form class="d-flex mt-5 ms-5" role="search">
-                <div class="col-lg-12"></div>
-
-                <input class="form-control me-2 col-lg-6 border border-4 rounded shadow" type="search"
-                    placeholder="Search" aria-label="Search">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Filtrar por
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Sangue</a></li>
-                        <li><a class="dropdown-item" href="#">Coração</a></li>
-                        <li><a class="dropdown-item" href="#">Psicológico</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Pesquisar
-                    </button>
+    <div class="container">
+        <div class="row">
+            <form action="/sua_url_de_pesquisa" method="get">
+                <div class="input-group ms-5" style="margin-top: 100px;">
+                    <input type="text" class="form-control" placeholder="Pesquisar" name="q">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle text-light" style="background-color: #135D66;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Filtrar por
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#" style="color: #135D66; font-weight: bold;">Exame de sangue</a></li>
+                          <li><a class="dropdown-item" href="#" style="color: #135D66; font-weight: bold;">Exame cardíaco</a></li>
+                          <li><a class="dropdown-item" href="#" style="color: #135D66; font-weight: bold;">Exame psiquiátrico</a></li>
+                        </ul>
+                      </div>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline text-light" style="background-color: #135D66;"
+                            type="submit">Pesquisar</button>
+                    </div>
                 </div>
             </form>
         </div>
-    </nav>
+    </div>
 
-    <br><br><br><br><br><br>
+    <br><br><br>
 
     <div class="card-container">
         <div class="card">
             <img src="img/clinicaexemplo.jpeg" alt="">
             <div class="card-content">
                 <h3>Card 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.</p>
                 <a href="" class="btn">Agendar</a>
             </div>
         </div>
@@ -169,7 +170,8 @@
             <img src="img/clinicaexemplo.jpeg" alt="">
             <div class="card-content">
                 <h3>Card 2</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.</p>
                 <a href="" class="btn">Agendar</a>
             </div>
         </div>
@@ -177,7 +179,8 @@
             <img src="img/clinicaexemplo.jpeg" alt="">
             <div class="card-content">
                 <h3>Card 3</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.</p>
                 <a href="" class="btn">Agendar</a>
             </div>
         </div>
@@ -185,7 +188,8 @@
             <img src="img/clinicaexemplo.jpeg" alt="">
             <div class="card-content">
                 <h3>Card 3</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.</p>
                 <a href="" class="btn">Agendar</a>
             </div>
         </div>
@@ -193,13 +197,14 @@
             <img src="img/clinicaexemplo.jpeg" alt="">
             <div class="card-content">
                 <h3>Card 3</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi totam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.</p>
                 <a href="" class="btn">Agendar</a>
             </div>
         </div>
-        
+
     </div>
-    
+
 </body>
 
 </html>
