@@ -17,6 +17,34 @@ Algumas inconsistências:
 - Navegação para as páginas corretas (botões do menu e cadastro);
 - Padronização das páginas.
 
+
+## Cadastro de Clínicas e médicos
+
+Integração do frontend <[Link da página de arquitetura](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md)> e backend <[Link do Git Hub](https://github.com/NatanCarvalho75/TESTEBACKEND.git)>.
+
+Funcionalidades desenvolvidas: - Registro dos dados inseridos nos campos no BD: 
+
+Parte de Cadastro de Clínica: [Nome da Clínica], [Especialidade], [Endereço], [Contato], [Serviços] e [Exames] Cadastrados
+Parte de Visualização e Delete funcionais também
+
+Parte de Cadastro de Medico: [Nome], [CRM], [Especialidade], [CPF] e [Contato] Cadastrados
+Parte de Visualização e Delete funcionais também
+
+
+Funcionalidades em desenvolvimento: - Integração completa do front end com o back para uma perspectiva da clínica e usuário
+
+Inconsistências: Erros na integração do front. Front end do framework sobrepondo o front end do projeto, sistema de cadastro não compatível com o front projetado 
+
+
+Após desenvolvimento de todas as funções da respectiva página, a implementação será atualizada na pasta <link da src>.
+
+Não enviamos o projeto para o repositório para não causar mais problemas futuros
+
+Para o fim de explicação, tivemos dificuldades no desenvolvimento do projeto.
+
+Eu, Natan, Guilherme e Walter desenvolvemos essa parte de cadastro de clínicas do back end, porém encontramos algumas dificuldades que atrapalharam o desenvolvimento. Espero que o senhor entenda!
+
+
 ## Funcionalidades
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
