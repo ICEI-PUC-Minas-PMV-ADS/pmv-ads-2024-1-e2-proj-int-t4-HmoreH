@@ -100,6 +100,12 @@ Feito o clique no card coração por exemplo, o cliente será redirecionado para
 Quando o cliente clicar em agendar, será essa página que aparecerá logo em seguida, aqui ele vai colocar seus dados e o tipo de serviço que deseja.
 
 
+# Tela de cadastro de usuários
+
+
+![Group 74](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/d6284843-58f2-4e25-8cba-3964234c7332)
+
+
 
 ![Tela de Agendamento de Exame ou Consulta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/cd2fba31-9bac-4752-ac07-8e612549d0fa)
 
@@ -131,6 +137,11 @@ Quando o cliente clicar em agendar, será essa página que aparecerá logo em se
 # - #
 
 ![Group 72](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/11a2de28-a8d1-467f-b3cd-74bf7d8b5d12)
+
+
+# - #
+
+![Group 77 (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/assets/117231834/c0fa878d-5a5d-4205-b9f7-7c7428c360d6)
 
 
 
