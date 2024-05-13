@@ -1,10 +1,23 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+## Registro de Usuários
+- Integração do frontend <[Link da página de projeto de interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/blob/main/docs/04-Projeto%20de%20Interface.md#tela-de-cadastro-de-usu%C3%A1rios)> e backend <[link para o backend](https://github.com/MarianaV5/backend-hmh/tree/master1)  >.
+<br><br> Funcionalidades desenvolvidas:
+- Registro dos dados inseridos nos campos no BD: Nome (texto), Email(texto), Telefone(número inteiro), data de nascimento (data), CPF (número inteiro) e Senha (texto).
+- Estrutura da página Index para visualização dos dados inseridos.
 
-Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Funcionalidades em desenvolvimento:
+- Regra de validação dos campos;
+- Acoplamento do footer (rodapé) da página;
+- Design e adaptação dos elementos da página desenvolvida anteriormente sem a integração com o backend.
+Após desenvolvimento de todas as funções da respectiva página, a implementação será atualizada na pasta <link da src>.
 
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
+Algumas inconsistências:
+- Mensagens das regras de validação (erros em função dos tipos dos dados e indicação por máscaras);
+- Navegação para as páginas corretas (botões do menu e cadastro);
+- Padronização das páginas.
+
+## Funcionalidades
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
