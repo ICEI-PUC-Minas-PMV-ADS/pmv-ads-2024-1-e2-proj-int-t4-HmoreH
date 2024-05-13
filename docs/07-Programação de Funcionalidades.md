@@ -8,8 +8,22 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | relatorio.shtml |
+|RF-001| A aplicação deve permitir que o usuário crie uma conta pessoal | "ClientesController.cs", "View/Clientes/Create.cshtml", "Clientes.cs" | 
+|RF-002| A aplicação deve permitir que o usuário realize login em sua conta pessoal | - |
+|RF-003| A aplicação deve permitir que o usuário gerencie suas tarefas | - |
+|RF-004| A aplicação deve emitir um relatório de tarefas realizadas no mês   | - |
+|RF-005| O sistema deve permitir manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud) | - | 
+|RF-006| O sistema deve exibir as informações do usuário do sistema | "View/Clientes/Index.cshtml" | 
+|RF-007| O sistema deve exibir em sua homepage consultórios disponíveis para agendamento | - | 
+|RF-008| O sistema deve fornecer informações dos consultórios exibidos | "View/Clinicas/Index.cshtml" | 
+|RF-009| O sistema deve fornecer opções de filtro de consultórios conforme localidade, disponibilidade, assuntos e preço | - | 
+|RF-010| O sistema deve permitir a solicitação de transporte para a consulta agendada | - | 
+|RF-011| O sistema deve acessar o banco de dados dos consultórios cadastrados| "Model/Clinicas.cs", "AppDbContext.cs" | 
+|RF-012| O sistema deve permitir o agendamento de consultas direto do site | - | 
+|RF-013| O sistema deve exibir as avaliações dos consultórios | - | 
+|RF-013| O sistema deve permitir avaliar consultórios entre 1 e 5 estrelas | - |
+|RF-015| O sistema deve permitir a edição de informações da consulta agendada (crud) | - | 
+|RF-016| Disponibilizar os meios de comunicação da clinica de forma acessivel, por exemplo, dispor de um botão para o WhatsApp, quando houver esse meio de contato.| - |
 
 # Instruções de acesso
 
