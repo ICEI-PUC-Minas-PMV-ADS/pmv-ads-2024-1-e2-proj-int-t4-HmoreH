@@ -6,7 +6,7 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 - RF-001 - Testar se é possível cadastrar no site
 
-![alt text](/docs/img/Cadastrando médico.png)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/blob/main/docs/img/Cadastrando%20m%C3%A9dico.png" width="500">
 
 
 - RF-005 - Testar se o sistema permite manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud)
