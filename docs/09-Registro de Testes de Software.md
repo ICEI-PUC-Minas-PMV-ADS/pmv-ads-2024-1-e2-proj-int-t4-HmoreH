@@ -47,9 +47,13 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 
 - RF - 006 - Testar se o sistema exibe as informações dos usuários (MELHORADO):
-    
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/blob/main/docs/img/Cadastrando%20usu%C3%A1rio.png" width="800">
 
 - Informações cadastradas exibidas na página de informações pessoais:
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH/blob/main/docs/img/Informa%C3%A7%C3%B5es%20exibidas%20na%20p%C3%A1gina%20Informa%C3%A7%C3%B5es%20pessoais.png" width="800">
+
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
