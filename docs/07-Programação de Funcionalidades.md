@@ -50,14 +50,14 @@ Eu, Natan, Guilherme e Walter desenvolvemos essa parte de cadastro de clínicas 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir que o usuário crie uma conta pessoal | "ClientesController.cs", "View/Clientes/Create.cshtml", "Clientes.cs" | 
-|RF-002| A aplicação deve permitir que o usuário realize login em sua conta pessoal | - |
+|RF-002| A aplicação deve permitir que o usuário realize login em sua conta pessoal | "Controllers/ClientesController", "Views/Clientes/Login.cshtml", "Login.css" |
 |RF-003| A aplicação deve permitir que o usuário gerencie suas tarefas | - |
 |RF-004| A aplicação deve emitir um relatório de tarefas realizadas no mês   | - |
-|RF-005| O sistema deve permitir manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud) | - | 
-|RF-006| O sistema deve exibir as informações do usuário do sistema | "View/Clientes/Index.cshtml" | 
-|RF-007| O sistema deve exibir em sua homepage consultórios disponíveis para agendamento | - | 
+|RF-005| O sistema deve permitir manipular o cadastro de usuários, sejam clientes, funcionários ou administradores (crud) | "ClientesController.cs", "ClinicasController.cs", "MedicosController.cs" | 
+|RF-006| O sistema deve exibir as informações do usuário do sistema | "ClientesController.cs", "Views/Clientes/MeuPerfil.cs", "ClinicasController.cs", "views/Clinicas/Index.cshtml"| 
+|RF-007| O sistema deve exibir em sua homepage consultórios disponíveis para agendamento | "PaginaHome/Index.html" | 
 |RF-008| O sistema deve fornecer informações dos consultórios exibidos | "View/Clinicas/Index.cshtml" | 
-|RF-009| O sistema deve fornecer opções de filtro de consultórios conforme localidade, disponibilidade, assuntos e preço | - | 
+|RF-009| O sistema deve fornecer opções de filtro de consultórios conforme localidade, disponibilidade, assuntos e preço | "ClinicasController.cs" | 
 |RF-010| O sistema deve permitir a solicitação de transporte para a consulta agendada | - | 
 |RF-011| O sistema deve acessar o banco de dados dos consultórios cadastrados| "Model/Clinicas.cs", "AppDbContext.cs" | 
 |RF-012| O sistema deve permitir o agendamento de consultas direto do site | - | 
