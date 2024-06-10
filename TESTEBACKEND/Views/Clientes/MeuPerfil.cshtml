@@ -1,0 +1,70 @@
+﻿@model TESTEBACKEND.Models.Cliente
+
+<head>
+    @section styles {
+        <link rel="stylesheet" href="~/css/PerfilStyle.css">
+    }
+</head>
+
+
+<div class="container">
+    <div class="row">
+
+        <!-- Coluna do Perfil -->
+        <div class="col-md-5 coluna-esquerda">
+            <div class="foto-perfil">
+                <br>
+                <img src="~/Imagens/boy.png" alt="Foto de Perfil"><br><br>
+                Nome: @Html.DisplayFor(model => model.Nome)<br />
+                CPF: @Html.DisplayFor(model => model.CPF)  <br>
+                Telefone: @Html.DisplayFor(model => model.Numero) <br>
+                Email: @Html.DisplayFor(model => model.Email) <br><br>
+                <button class="Edit">
+                    <a asp-action="Edit" asp-route-id="@Model?.CPF">Editar Perfil</a>
+                </button> <br />
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+
+        <!-- Colunas dos exames Marcados e A realizar -->
+        <div class="col-md-6 coluna-direita">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <h5>Exames a Realizar</h5>
+                        <ul class="Lista-ExMarcados">
+                            <li>Exame De sangue</li>
+                            <li>Exame De sangue</li>
+                            <li>Exame De sangue</li>
+                            <li>Exame De sangue</li>
+                            <li>Exame De sangue</li>
+                            <li>Exame De Sangue</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Coluna Azul -->
+                <div class="col-6">
+                    <div class="card-2">
+                        <h5>Exames Realizados</h5>
+                        <ul class="ListaRealizados">
+                            <li>Exame de Sangue</li>
+                            <li>Exame de Sangue</li>
+                            <li>Exame de Sangue</li>
+                            <li>Exame de Sangue</li>
+                            <li>Exame de Sangue</li>
+                            <li>Exame de Sangue</li>
+                            <li>Exame de Sangue</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+
+
+
+</div>
