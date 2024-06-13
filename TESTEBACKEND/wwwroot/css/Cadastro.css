@@ -53,3 +53,12 @@ h4{
     color: red;
     font-size: 14px;
 }
+
+.btn {
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    
+    text-align: center;
+}

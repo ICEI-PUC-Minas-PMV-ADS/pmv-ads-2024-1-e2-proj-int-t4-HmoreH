@@ -15,7 +15,7 @@ namespace TESTEBACKEND.Models
         [Required(ErrorMessage = "Por favor, informe seu número de CPF.")]
         public int CPF { get; set; }
         
-        [Required(ErrorMessage = "Para melhores atendimentos, por gentileza, informe seu nome.")]
+        [Required(ErrorMessage = "Por favor informe seu nome completo.")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Para fins de contato, por favor informe o seu email.")]
@@ -27,7 +27,7 @@ namespace TESTEBACKEND.Models
         [Required(ErrorMessage = "Informe sua data de nascimento.")]
         public DateTime DataNascimento { get; set; }
 
-        [Required(ErrorMessage = "Digite uma senha, para acesso posteriormente ao site.")]
+        [Required(ErrorMessage = "Para acesso ao site, por favor indique uma senha.")]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
     }
