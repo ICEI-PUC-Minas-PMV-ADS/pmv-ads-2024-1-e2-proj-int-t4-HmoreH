@@ -36,13 +36,13 @@
                         <a class="nav-link" href="#">Serviços</a>
                     </button>
                     <button class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link text-white" href="#">Sobre</a>
                     </button>
                     <button class="nav-item">
                         <a class="nav-link" href="#">Contato</a>
                     </button>
                     <button class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link text-white" href="/Clientes/Login">Login</a>
                     </button>
                 </ul>
             </div>
@@ -103,6 +103,9 @@
         </form>
     </div>
     <a asp-action="Index" class="btn btn-info">Voltar</a>
+    <button class="redirection">
+        <a class="nav-link text-white" href="/Medicos/Create">Cadastro do Médicos</a>
+    </button>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
