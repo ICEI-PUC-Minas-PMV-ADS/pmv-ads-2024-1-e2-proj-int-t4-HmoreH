@@ -14,7 +14,6 @@ input {
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #135D66;
-    color: #FFF;
 }
     
 img {
@@ -53,4 +52,13 @@ h4{
 .field-validation-error {
     color: red;
     font-size: 14px;
+}
+
+.btn {
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    
+    text-align: center;
 }
