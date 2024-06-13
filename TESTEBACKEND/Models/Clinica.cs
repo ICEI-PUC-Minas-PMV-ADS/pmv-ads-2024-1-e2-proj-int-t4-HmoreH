@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TESTEBACKEND.Models
@@ -12,6 +13,7 @@ namespace TESTEBACKEND.Models
 
 
         [Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha o nome da Clinica.")]
+        [DisplayName("Razão Social")]
         public string NomeClinica { get; set; }
 
 
@@ -20,14 +22,17 @@ namespace TESTEBACKEND.Models
 
 
         [Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha o seu endereço.")]
+        [DisplayName("Endereço da Unidade")]
         public string Endereco { get; set; }
 
 
         [Required(ErrorMessage = "Campo Obrigatório. Por favor, informe o seu contato.")]
+        [DisplayName("Telefone para Contato")]
         public int Contato { get; set; }
 
 
         [Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha os seus serviços.")]
+        [DisplayName("Serviços")]
         public string Servicos { get; set; }
 
 
