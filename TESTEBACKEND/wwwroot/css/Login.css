@@ -4,6 +4,11 @@
 
 .left {
     border-right: 1px solid #000;
+    text-align: center;
+}
+
+p{
+    text-align:justify;
 }
 
 .button-container {
