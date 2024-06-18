@@ -40,8 +40,8 @@
                         @if (User.Identity.IsAuthenticated)
                     {
                             <button class="nav-item">
-
-                                <a class="nav-link text-white" asp-area="" asp-controller="Clientes" asp-action="MeuPerfil">
+                                <!--AJUSTAR ESSA NAVAGAÇÃO PARA IR À PÁGINA DE ACORDO COM O CPF-->
+                                <a class="nav-link text-white" asp-area="" asp-controller="Clientes" asp-route-id="@User.FindFirst("ClienteId")?.Value" asp-action="Details">
                                     <img class="icon-exit" src="~/img/user.png" alt="Perfil do Usuario"> 
                                     Paciente <span class="greeting-span">@User.Identity.Name</span>
                                 </a>

@@ -68,8 +68,8 @@ namespace TESTEBACKEND.Controllers
                 var Claims = new List<Claim>
                 {
                     new Claim (ClaimTypes.Name, dados.Nome),
-                    new Claim (ClaimTypes.NameIdentifier, dados.CPF.ToString())
-					//new Claim("ClienteId", dados.CPF.ToString())
+                    new Claim (ClaimTypes.NameIdentifier, dados.CPF.ToString()),
+					new Claim("ClienteId", dados.CPF.ToString())
 				};
                 var clienteIndentity = new ClaimsIdentity(Claims, "login");
                 ClaimsPrincipal principal = new ClaimsPrincipal(clienteIndentity);
