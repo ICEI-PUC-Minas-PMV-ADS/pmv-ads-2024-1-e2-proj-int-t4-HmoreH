@@ -20,4 +20,20 @@
     margin-right: 20px;
 }
 
+.icon-exit{
+    width:20px;
+    height:20px;
+}
+
+.greeting {
+    text-align: center; 
+    //padding: 50px; /* Ajuste o padding conforme necessário */
+    display: inline-block; /* Permite centralizar */
+}
+
+.greeting-span {
+    font-weight: bold;
+    color: white;
+}
+
 
