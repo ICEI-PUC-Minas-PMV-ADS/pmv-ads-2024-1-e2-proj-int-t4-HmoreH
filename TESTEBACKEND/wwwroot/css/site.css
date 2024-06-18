@@ -14,21 +14,16 @@
 
 .navbar button {
     background-color: #135D66;
-    border: 50px;
     border-radius: 50px;
     padding: 10px 20px;
     margin-right: 20px;
 }
-
-.icon-exit{
-    width:20px;
-    height:20px;
+.nav-item {
+    border: 1px solid white;
 }
-
-.greeting {
-    text-align: center; 
-    //padding: 50px; /* Ajuste o padding conforme necessário */
-    display: inline-block; /* Permite centralizar */
+.icon-exit {
+    width: 20px;
+    height: 20px;
 }
 
 .greeting-span {

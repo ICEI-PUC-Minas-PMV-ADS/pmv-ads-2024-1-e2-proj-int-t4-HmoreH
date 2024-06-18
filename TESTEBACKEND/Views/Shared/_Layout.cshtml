@@ -20,26 +20,34 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        
-                        <button class="nav-item">
-                            <a class="nav-link text-white" href="#">Serviços</a>
-                        </button>
-                        <button class="nav-item">
+                        <li>
+                            <button>
+                                <a class="nav-link text-white" href="#">Serviços</a>
+                            </button>
+                        </li>
+
+                        <li>
+                        <button>
                             <a class="nav-link text-white" href="#">Sobre</a>
                         </button>
-                        <button class="nav-item">
+                        </li>
+
+                        <button>
                             <a class="nav-link text-white" href="#">Contato</a>
                         </button>
-
+                        </ul>
+                    <ul class="navbar-nav ms-auto">
                         @if (User.Identity.IsAuthenticated)
                     {
                             <button class="nav-item">
-                                <img class="icon-exit" src="~/img/user.png" alt="Perfil do Usuario">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Clientes" asp-action="MeuPerfil">Paciente <span class="greeting-span">@User.Identity.Name</span></a>
+
+                                <a class="nav-link text-white" asp-area="" asp-controller="Clientes" asp-action="MeuPerfil">
+                                    <img class="icon-exit" src="~/img/user.png" alt="Perfil do Usuario"> 
+                                    Paciente <span class="greeting-span">@User.Identity.Name</span>
+                                </a>
                             </button>
                             <button class="nav-item">
-                                <img class="icon-exit" src="~/img/exit.png" alt="Sair">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Clientes" asp-action="Logout">Sair</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Clientes" asp-action="Logout"> <img class="icon-exit" src="~/img/exit.png" alt="Sair"></a>
                             </button>
                     }
                     else
