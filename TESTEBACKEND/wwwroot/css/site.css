@@ -37,7 +37,6 @@ body {
     background-color: #f0f0f0;
 }
 
-
 footer {
     background: #77B0AA;
     padding-top: 50px;
@@ -47,11 +46,14 @@ footer {
     width: 1140px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Ajusta o espaçamento entre os itens */
+    flex-wrap: wrap; /* Permite quebra de linha para itens maiores */
 }
 
 .footer-content {
-    width: 33.3%;
+    flex: 1; /* Permite que cada item ocupe espaço igualmente */
+    min-width: 200px; /* Define um tamanho mínimo para evitar itens muito pequenos */
+    margin: 20px; /* Adiciona margem para espaçamento */
 }
 
 h3 {
@@ -68,16 +70,28 @@ h3 {
 
 .footer-content ul {
     text-align: center;
-}
-
-.list {
     padding: 0;
+    list-style-type: none;
 }
 
-    .list li {
-        width: auto;
-        text-align: center;
-        list-style-type: none;
-        padding: 7px;
-        position: relative;
+.list li {
+    padding: 7px;
+}
+
+.social-icons {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+    .social-icons li a {
+        color: white;
+        font-size: 20px;
+        transition: color 0.3s;
     }
+
+        .social-icons li a:hover {
+            color: #0056b3;
+        }
