@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light navbar-colorida">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">H<span>+</span>H</a> <!--ADICIONAR CAMINHO PARA HOME-->
+                <a class="navbar-brand" href="/Home/Index">H<span>+</span>H</a> <!--ADICIONAR CAMINHO PARA HOME-->
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,25 +22,24 @@
                     <ul class="navbar-nav ms-auto">
                         <li>
                             <button>
-                                <a class="nav-link text-white" href="#servicos">Serviços</a>
+                                <a class="nav-link text-white" href="/Home/Index/#servicos">Serviços</a>
                             </button>
                         </li>
 
                         <li>
                         <button>
-                            <a class="nav-link text-white" href="#sobre">Sobre</a>
+                            <a class="nav-link text-white" href="/Home/Index/#sobre">Sobre</a>
                         </button>
                         </li>
 
                         <button>
-                            <a class="nav-link text-white" href="#contato">Contato</a>
+                            <a class="nav-link text-white" href="/Home/Index/#contato">Contato</a>
                         </button>
                         </ul>
                     <ul class="navbar-nav ms-auto">
                         @if (User.Identity.IsAuthenticated)
                     {
                             <button class="nav-item">
-                                <!--AJUSTAR ESSA NAVAGAÇÃO PARA IR À PÁGINA DE ACORDO COM O CPF -->
                                 <a class="nav-link text-white" asp-area="" asp-controller="Clientes" asp-route-id="@User.FindFirst("ClienteId")?.Value" asp-action="Details">
                                     <img class="icon-exit" src="~/img/user.png" alt="Perfil do Usuario"> 
                                     Paciente <span class="greeting-span">@User.Identity.Name</span>
