@@ -18,5 +18,8 @@
     border-radius: 50px;
     padding: 10px 20px;
     background-color: white;
-    text-align: center;
+}
+
+#btn_agd {
+    width: 100%;
 }

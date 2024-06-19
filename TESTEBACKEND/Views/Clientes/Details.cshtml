@@ -38,10 +38,10 @@ if (dataNascimento.Date > DateTime.Today.AddYears(-idade)) idade--;
     </dl>
         
             <hr />
-        </div>
-        <div>
-            <a asp-action="Edit" asp-route-id="@Model?.CPF">Edit</a> |
-            <a asp-action="Index">Back to List</a>
-        </div>
+            <p>Algumas clínicas podem solicitar informações adicionais para personalizar seu atendimento. 
+    Garantimos que seus dados serão tratados com segurança e não serão compartilhados sem seu consentimento prévio, conforme a LGPD.</p>
+            <p>Para mais informações ou para exercer seus direitos de privacidade, entre em contato diretamente com a clínica.</p>    
+           
+    <button class="btn" id="btn_agd">Consultar Agendamentos</button>
 </body>
 </html>
