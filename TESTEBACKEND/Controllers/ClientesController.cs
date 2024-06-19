@@ -120,7 +120,7 @@ namespace TESTEBACKEND.Controllers
             if (id == null)
                 return NotFound();
 
-            var dados = _context.Veiculos.FindAsync(id);
+            var dados = _context.Clientes.FindAsync(id);
 
             if (dados == null)
                 return NotFound();
