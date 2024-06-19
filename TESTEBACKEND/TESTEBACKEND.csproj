@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Clientes\Details.cshtml" />
     <Content Remove="wwwroot\img\power-off-icon.webp" />
   </ItemGroup>
 
