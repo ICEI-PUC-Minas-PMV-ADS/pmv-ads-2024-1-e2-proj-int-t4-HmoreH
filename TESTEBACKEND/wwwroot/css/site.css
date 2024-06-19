@@ -8,9 +8,9 @@
     font-weight: 600;
 }
 
-.navbar-light .navbar-brand span {
+    .navbar-light .navbar-brand span {
         color: white;
-}
+    }
 
 .navbar button {
     background-color: #135D66;
@@ -18,9 +18,11 @@
     padding: 10px 20px;
     margin-right: 20px;
 }
+
 .nav-item {
     border: 1px solid white;
 }
+
 .icon-exit {
     width: 20px;
     height: 20px;
@@ -29,6 +31,10 @@
 .greeting-span {
     font-weight: bold;
     color: white;
+}
+
+body {
+    background-color: #f0f0f0;
 }
 
 

@@ -22,18 +22,18 @@
                     <ul class="navbar-nav ms-auto">
                         <li>
                             <button>
-                                <a class="nav-link text-white" href="#">Serviços</a>
+                                <a class="nav-link text-white" href="#servicos">Serviços</a>
                             </button>
                         </li>
 
                         <li>
                         <button>
-                            <a class="nav-link text-white" href="#">Sobre</a>
+                            <a class="nav-link text-white" href="#sobre">Sobre</a>
                         </button>
                         </li>
 
                         <button>
-                            <a class="nav-link text-white" href="#">Contato</a>
+                            <a class="nav-link text-white" href="#contato">Contato</a>
                         </button>
                         </ul>
                     <ul class="navbar-nav ms-auto">
@@ -66,17 +66,14 @@
 
         
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Digital Hub - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
-        </div>
-    </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
