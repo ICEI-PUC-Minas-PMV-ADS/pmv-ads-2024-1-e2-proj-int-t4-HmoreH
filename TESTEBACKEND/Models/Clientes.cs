@@ -25,6 +25,8 @@ namespace TESTEBACKEND.Models
         public int Numero { get; set; }
 
         [Required(ErrorMessage = "Informe sua data de nascimento.")]
+        [Display(Name = "Data de Nascimento")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DataNascimento { get; set; }
 
         [Required(ErrorMessage = "Para acesso ao site, por favor indique uma senha.")]
