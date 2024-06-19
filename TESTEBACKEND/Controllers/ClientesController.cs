@@ -115,7 +115,35 @@ namespace TESTEBACKEND.Controllers
             return View(dados);
         }
 
-		public async Task<IActionResult> MeuPerfil()
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var dados = _context.Veiculos.FindAsync(id);
+
+            if (dados == null)
+                return NotFound();
+
+            return View(dados);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, Cliente cliente)
+        {
+            if (id != cliente.CPF)
+                return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                _context.Clientes.Update(cliente);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+        public async Task<IActionResult> MeuPerfil()
 		{
 			var clienteIdClaim = User.FindFirst("ClienteId");
 			if (clienteIdClaim == null)
