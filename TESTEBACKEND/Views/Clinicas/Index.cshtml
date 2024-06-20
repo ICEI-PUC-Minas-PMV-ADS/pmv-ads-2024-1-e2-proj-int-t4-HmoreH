@@ -8,53 +8,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/Cadastro.css">
+    <link rel="stylesheet" href="~/css/IndexClinica.css">
+
 </head>
+<body>
+    
+    <br />
+            <h1>Clínicas Para Você!</h1><br />
+            <button type="button" onclick="location.href='@Url.Action("Create")'" class="btn">Quer Cadastrar sua Clínica?</button>
+            
 
-<h1>Clínicas Cadastradas</h1>
-
-    <button type="button" onclick="location.href='@Url.Action("Create")'" class="btn">Cadastrar Nova Clínica</button>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeClinica)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Especialidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Endereco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Contato)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Servicos)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomeClinica)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Especialidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Endereco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Contato)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Servicos)
-            </td>
-        </tr>
-            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-}
-    </tbody>
-</table>
+            <div class="clinicas-container">
+                @foreach (var item in Model)
+                {
+                    <div class="clinica-card">
+                        <h2>@Html.DisplayFor(modelItem => item.NomeClinica)</h2>
+                        <p><strong>Especialidade:</strong> @Html.DisplayFor(modelItem => item.Especialidade)</p>
+                        <p><strong>Serviços:</strong> @Html.DisplayFor(modelItem => item.Servicos)</p>
+                        <a class="detalhes" asp-action="Details" asp-route-id="@item.Id">Clique aqui para mais detalhes!</a>
+                    </div>
+                }
+            </div>
+</body>
+        
