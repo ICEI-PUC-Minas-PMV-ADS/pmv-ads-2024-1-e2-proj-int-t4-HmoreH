@@ -9,8 +9,48 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="inicio" class="buttonsearch">
-        <input type="button" value="Pesquisar">
+    <div class="buttonsearch">
+        <input type="button" class="btn btn-primary" value="Pesquisar" data-bs-toggle="modal" data-bs-target="#filterModal">
+    </div>
+
+    <!-- Modal de Filtros -->
+    <div class="modal fade" id="filterModal" tabindex="-1" aria-labelledby="filterModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="filterModalLabel">Filtros de Pesquisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulário de Filtros -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="filterLocation" class="form-label">Localização</label>
+                            <input type="text" class="form-control" id="filterLocation" placeholder="Digite a localização">
+                        </div>
+                        <div class="mb-3">
+                            <label for="filterSpecialty" class="form-label">Especialidade</label>
+                            <input type="text" class="form-control" id="filterSpecialty" placeholder="Digite a especialidade">
+                        </div>
+                        <div class="mb-3">
+                            <label for="filterRating" class="form-label">Avaliação</label>
+                            <select class="form-select" id="filterRating">
+                                <option value="">Selecione a avaliação</option>
+                                <option value="1">1 estrela</option>
+                                <option value="2">2 estrelas</option>
+                                <option value="3">3 estrelas</option>
+                                <option value="4">4 estrelas</option>
+                                <option value="5">5 estrelas</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="./Resultado Card/resultados.html"><button type="button" class="btn btn-primary">Aplicar Filtros</button></a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="card-container">
         <a href="#" class="card">
