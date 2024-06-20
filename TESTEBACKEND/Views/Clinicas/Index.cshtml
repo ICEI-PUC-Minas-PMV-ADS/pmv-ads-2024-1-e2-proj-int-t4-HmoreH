@@ -54,6 +54,7 @@
                 @Html.DisplayFor(modelItem => item.Servicos)
             </td>
         </tr>
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
 }
     </tbody>
 </table>

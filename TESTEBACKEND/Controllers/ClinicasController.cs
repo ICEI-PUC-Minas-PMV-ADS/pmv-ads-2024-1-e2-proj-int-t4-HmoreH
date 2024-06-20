@@ -75,16 +75,16 @@ namespace TESTEBACKEND.Controllers
 
         public async Task<IActionResult> Details(int? id) 
         {
-            if(id == null)
-                return NotFound();
+            if(id == null) {
+                return NotFound();}
+                
             
-            var dados = await _context.Clinicas.FindAsync();
+            var dados = await _context.Clinicas.FindAsync(id);
 
-            if(dados == null)
-                return NotFound();
-            
-            
-            return View();
+            if(dados == null) {
+                return NotFound();}
+             
+            return View(dados);
         }
 
 
