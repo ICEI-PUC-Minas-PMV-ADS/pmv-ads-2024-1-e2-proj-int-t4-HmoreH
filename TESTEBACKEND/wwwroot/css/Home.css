@@ -148,6 +148,24 @@
         font-size: 15px;
     }
 
+    .clinic-container .about .social-icons {
+        margin-top: 24%;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+        .clinic-container .about .social-icons a {
+            color: #135D66;
+            font-size: 45px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+            .clinic-container .about .social-icons a:hover {
+                color: #77B0AA;
+                transform: translateY(-5px);
+            }
+
 /* Service Container */
 
 .service-container {
