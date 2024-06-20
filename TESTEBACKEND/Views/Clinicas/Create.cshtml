@@ -42,6 +42,10 @@
                 <span asp-validation-for="Contato" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <input type="text" placeholder="Descrição da Clinica" asp-for="Descricao" class="form-control">
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label for="especialidade">Especialidade(s)</label>
                 <select class="form-select" multiple aria-label="multiple select example" id="especialidade" name="especialidade">
                     <option selected>Indique uma ou mais especialidades.</option>

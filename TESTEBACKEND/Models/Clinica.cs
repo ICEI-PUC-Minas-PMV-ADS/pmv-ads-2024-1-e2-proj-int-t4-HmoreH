@@ -35,6 +35,8 @@ namespace TESTEBACKEND.Models
         [DisplayName("Serviços")]
         public string Servicos { get; set; }
 
+        public string Descricao { get; set; }
+
 
         //[Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha os seus exames.")]
         //public string Exames { get; set; }
