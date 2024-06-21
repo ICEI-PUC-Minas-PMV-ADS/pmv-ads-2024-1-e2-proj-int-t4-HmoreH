@@ -17,6 +17,11 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\img\power-off-icon.webp" />
+    <Content Remove="wwwroot\js\search.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\search.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +39,10 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\search.js" />
   </ItemGroup>
 
 </Project>

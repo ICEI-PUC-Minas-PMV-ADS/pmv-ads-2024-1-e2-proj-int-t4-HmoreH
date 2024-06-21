@@ -11,14 +11,13 @@ namespace TESTEBACKEND.Models
         [Key]
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Campo Obrigatório. Por favor, informe o CNPJ da Clinica.")]
+        [DisplayName("CNPJ")]
+        public string CNPJ { get; set; }
 
-        [Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha o nome da Clinica.")]
+        [Required(ErrorMessage = "Campo Obrigatório. Por favor, informe a razão social.")]
         [DisplayName("Razão Social")]
         public string NomeClinica { get; set; }
-
-
-        [Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha a sua Especialidade.")]
-        public string Especialidade { get; set; }
 
 
         [Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha o seu endereço.")]
@@ -30,17 +29,7 @@ namespace TESTEBACKEND.Models
         [DisplayName("Telefone para Contato")]
         public int Contato { get; set; }
 
-
-        [Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha os seus serviços.")]
-        [DisplayName("Serviços")]
-        public string Servicos { get; set; }
-
         public string Descricao { get; set; }
-
-
-        //[Required(ErrorMessage = "Campo Obrigatório. Por favor, preencha os seus exames.")]
-        //public string Exames { get; set; }
-
 
     }
 }

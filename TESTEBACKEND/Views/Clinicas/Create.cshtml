@@ -15,66 +15,58 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="~/js/search.js"></script>
     <link rel="stylesheet" href="~/css/Cadastro.css">
 </head>
 <body>
     <br />
 <h4>Cadastro da Clínica</h4>
+    <h5>
+        <span class="destaque">
+            Explore novas oportunidades com o Hub More Health!
+        </span>
+    </h5>
+    <hr />
     <p>
-        Bem-vindo à nossa clínica! Estamos felizes em recebê-lo como parte da nossa comunidade de saúde. Ao se cadastrar, você terá acesso a uma variedade de serviços e recursos para cuidar da sua saúde da melhor maneira possível.
+        O Hub More Health nasceu com uma missão clara: democratizar o acesso às clínicas, especialmente para pessoas na melhor idade. 
+        Nosso compromisso é proporcionar uma plataforma intuitiva que reúne uma ampla gama de serviços e prestadores de saúde, facilitando escolhas conscientes na busca por atendimento de qualidade.
         </p>
         <p>
-        Por favor, preencha o formulário abaixo com suas informações pessoais para criar sua conta. Após o registro, você poderá marcar consultas, receber lembretes de compromissos, acessar seus registros médicos e muito mais.
-    </p>
-    <div class="content container">
+        Para continuar o cadastro de sua clínica em nossa plataforma, é necessário preencher os dados solicitados abaixo. Essas informações são essenciais para entendermos melhor suas necessidades e garantir um atendimento personalizado desde o início.
+        </p>
+        <p>
+        Após o preenchimento dos dados, nossa equipe entrará em contato para fornecer todos os detalhes sobre como nossa plataforma funciona e como você pode começar a utilizá-la para melhorar a gestão de sua clínica.
+        </p>
+
         <form asp-action="Create">
+        <div class="row">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <input type="text" placeholder="Nome da Clínica" asp-for="NomeClinica" class="form-control">
+            <div class="form-group col">
+                <input type="text" placeholder="Razão Social" asp-for="NomeClinica" class="form-control">
                 <span asp-validation-for="NomeClinica" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="text" placeholder="Endereço da Clínica" asp-for="Endereco" class="form-control">
-                <span asp-validation-for="Endereco" class="text-danger"></span>
+           
+            <div class="form-group col">
+                <input type="text" placeholder="CNPJ" asp-for="CNPJ" class="form-control">
+                <span asp-validation-for="CNPJ" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group col">
                 <input type="text" placeholder="Telefone para Contato" asp-for="Contato" class="form-control">
                 <span asp-validation-for="Contato" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="text" placeholder="Descrição da Clinica" asp-for="Descricao" class="form-control">
-                <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label for="especialidade">Especialidade(s)</label>
-                <select class="form-select" multiple aria-label="multiple select example" id="especialidade" name="especialidade">
-                    <option selected>Indique uma ou mais especialidades.</option>
-                    <option value="Cardiologia">Cardiologia</option>
-                    <option value="Dermatologia">Dermatologia</option>
-                    <option value="Pediatria">Pediatria</option>
-                </select>
-                <span asp-validation-for="Especialidade" class="text-danger"></span>
+                <input type="text" placeholder="Endereço da Unidade" asp-for="Endereco" class="form-control">
+                <span asp-validation-for="Endereco" class="text-danger"></span>
             </div>
-            
-            <div class="form-group">
-                <label for="servicos">Serviços</label>
-                <select class="form-select" multiple aria-label="multiple select example" id="servicos" name="servicos">
-                    <option selected>Indique um ou mais serviços.</option>
-                    <option value="exame">Exame</option>
-                    <option value="consulta">Consulta</option>
-                </select>
-                <span asp-validation-for="Servicos" class="text-danger"></span>
-            </div>
-            <!--div class="form-group">
-                <label for="exames">Exames</label>
-                <input type="text" id="exames" name="exames">
-                <span asp-validation-for="Exames" class="text-danger"></span>
-            </div--->
+
             <div class="form-group">
                 <input type="submit" value="Efetuar Cadastro" class="btn"/>
             </div>
         </form>
-    </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
