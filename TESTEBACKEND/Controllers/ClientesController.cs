@@ -120,7 +120,7 @@ namespace TESTEBACKEND.Controllers
             if (id == null)
                 return NotFound();
 
-            var dados = _context.Clientes.FindAsync(id);
+            var dados = await _context.Clientes.FindAsync(id);
 
             if (dados == null)
                 return NotFound();
@@ -141,7 +141,7 @@ namespace TESTEBACKEND.Controllers
                 return RedirectToAction("Index");
             }
 
-            return View();
+            return View(cliente);
         }
         public async Task<IActionResult> MeuPerfil()
 		{
