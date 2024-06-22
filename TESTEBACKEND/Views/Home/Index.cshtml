@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model IEnumerable<TESTEBACKEND.Models.Clinica>;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -159,8 +160,64 @@
             </div>
         </div>
     </div>
+
+    @foreach(var item in Model)
+    {
+    <div class="card2-container">
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>@item.NomeClinica</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.
+                </p>
+            </div>
+        </a>
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>@item.NomeClinica</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    @item.Descricao
+                </p>
+            </div>
+        </a>
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>@item.NomeClinica</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.
+                </p>
+            </div>
+        </a>
+    </div>
+    }
     <div id="servicos" class="service-container">
-        <h1>Nossos Serviços</h1>
+        <h1></h1>
         <div class="service-content">
             <img src="/img/services.png" alt="">
             <p>
