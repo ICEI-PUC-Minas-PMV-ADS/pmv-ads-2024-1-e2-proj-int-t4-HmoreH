@@ -30,8 +30,8 @@ etiquetas:
 
 ### Divisão de Papéis
 
-Product owner: Natan de Souza;
-Scrum Master: Guilherme Brito;
+Product owner: Natan de Souza; <br>
+Scrum Master: Guilherme Brito; <br>
 Equipe de desenvolvimento: Guilherme Brito, Helena Lima, Mariana Vieira, Natan de Souza e Walter Santos.
 
 ### Processo
