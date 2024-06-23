@@ -1,0 +1,22 @@
+message: Please cite this software using these metadata.
+title: Hub More Health
+authors:
+  - family-names: Brito Fonseca e Silva
+    given-names: Guilherme 
+  - family-names: de Souza Lima  
+    given-names: Helena
+  - family-names: Vieira Santos
+    given-names: Mariana
+  - family-names: de Souza Carvalho
+    given-names: Natan
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alberto Marques Pietrobon
+    given-names: Carlos
+keywords:
+  - Rede de saúde
+  - Clínicas
+  - Saúde
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-HmoreH
+version: 1.0.0
+date-released: 2024-06-23
