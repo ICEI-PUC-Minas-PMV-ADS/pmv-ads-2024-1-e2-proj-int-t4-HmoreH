@@ -47,13 +47,10 @@ Escala de avaliação
 |--------------------|------------------------------|-----------|-------------|---------------------|------------|
 |                    | No exemplo são 3 avaliadores |           |             |                     |            |
 |Visibilidade do status |Aval 1:1 <br>Aval 2:1 <br>Aval 3:2 | | |       |Aval 3: Precisam ser concertados os cards das clínicas na página principal    |	
-|Compatibilidade com o mundo real | | | |
-|Retorno em caso de erro |  | | |  |  |
-|Prevenção a erros |  | | | |
-|Reconhecimento em vez de memorização |  |   | |	 |  |	
-|Flexibilidade e eficiência de uso |  | | |  |  | 
-|Estética e design minimalista |  |	| |  |  |		
-|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | | | | |  |	
+|Compatibilidade com o mundo real |Aval 1:1 <br>Aval 2:1 <br>Aval 3:2 | | |
+|Reconhecimento em vez de memorização |Aval 1:1 <br>Aval 2:1 <br>Aval 3:0  |   | |	 |  |	
+|Flexibilidade e eficiência de uso |Aval 1: <br>Aval 2:1 <br>Aval 3:1  | | |  |  | 
+|Estética e design minimalista |Aval 1:0 <br>Aval 2:1 <br>Aval 3:0  |	| |  |  |		
 	
 
 # Avaliação da Usabilidade Funcional (feita pelo usuário que faz transações – casos de uso) – Dinâmica
@@ -63,21 +60,11 @@ Escala de avaliação
 
 |Atividade a ser realizada	|Feedback do usuário* |Considerações (quais os problemas, deficiências, limitações, etc.)* |Sugestão de melhorias* |
 |--------------------|------------------------------|-----------|-------------|
-|Cadastro paciente	 |                              |		    |             |
-Cadastro consultório |                              |		    |             |                        			
-Login do paciente |                              |		    |             |		
-Login do consultório |                              |		    |             |			
-Filtrar consultórios |                              |		    |             |			
-Consultar informações de consultórios |                              |		    |             |		
-Visualizar dados pessoais |                              |		    |             |			
-Editar dados pessoais |                              |		    |             |			
-Agendar consulta |                              |		    |             |			
-Modificar consulta |                              |		    |             |			
-Avaliar consulta |                              |		    |             |			
-Solicitar transporte |                              |		    |             |			
-Inserir dados referentes a disponibilidade (consultório)			
-Listar agendamentos (consultório) |                              |		    |             |			
-Recuperar dados de um cliente |                              |		    |             |			
+|Cadastro paciente	 | Página elegante, clara e precisa |Diz que não foi possível realizar o cadastro		    |             |
+Cadastro consultório |  Página bonita e clara nas informações que precisam ser passadas                            | Também diz que não foi possível fazer o cadastro		    |             |                        			
+Login do paciente | Design sofisticado e com cores condizentes                  |Não foi possível realizar o login, já era de se esperar, sem cadastro...		    |             |		
+Login do consultório | Fácil de entender, página realmente bonita                             |Não foi possível realizar login		    |             |			
+Filtrar consultórios | Fácil de se compreender graças ao destaque das palavras chave                             |		    |Adicionar imagens aos cards             |			
 
 
 
