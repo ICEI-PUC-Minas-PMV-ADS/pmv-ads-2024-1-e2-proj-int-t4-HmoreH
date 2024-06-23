@@ -46,7 +46,7 @@ Escala de avaliação
 |Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
 |--------------------|------------------------------|-----------|-------------|---------------------|------------|
 |                    | No exemplo são 3 avaliadores |           |             |                     |            |
-|Visibilidade do status | | | |       |     |	
+|Visibilidade do status |Aval 1:1 <br>Aval 2:1 <br>Aval 3:2 | | |       |Aval 3: Precisam ser concertados os cards das clínicas na página principal    |	
 |Compatibilidade com o mundo real | | | |
 |Retorno em caso de erro |  | | |  |  |
 |Prevenção a erros |  | | | |
