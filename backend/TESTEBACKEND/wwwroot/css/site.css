@@ -1,0 +1,97 @@
+.navbar-colorida {
+    background-color: #77B0AA;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+    .navbar-light .navbar-brand span {
+        color: white;
+    }
+
+.navbar button {
+    background-color: #135D66;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.nav-item {
+    border: 1px solid white;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.greeting-span {
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background: #77B0AA;
+    padding-top: 50px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* Ajusta o espaçamento entre os itens */
+    flex-wrap: wrap; /* Permite quebra de linha para itens maiores */
+}
+
+.footer-content {
+    flex: 1; /* Permite que cada item ocupe espaço igualmente */
+    min-width: 200px; /* Define um tamanho mínimo para evitar itens muito pequenos */
+    margin: 20px; /* Adiciona margem para espaçamento */
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p {
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul {
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list li {
+    padding: 7px;
+}
+
+.social-icons {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+    .social-icons li a {
+        color: white;
+        font-size: 20px;
+        transition: color 0.3s;
+    }
+
+        .social-icons li a:hover {
+            color: #0056b3;
+        }

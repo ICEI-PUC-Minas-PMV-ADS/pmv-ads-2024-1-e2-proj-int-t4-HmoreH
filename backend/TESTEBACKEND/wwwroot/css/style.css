@@ -1,0 +1,22 @@
+.container {
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+
+p{
+    text-align:justify;
+}

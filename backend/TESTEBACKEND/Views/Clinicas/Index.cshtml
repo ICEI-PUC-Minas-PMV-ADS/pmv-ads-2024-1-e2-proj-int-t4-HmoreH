@@ -1,0 +1,35 @@
+﻿@model IEnumerable<TESTEBACKEND.Models.Clinica>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/IndexClinica.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <br />
+            <h1>Clínicas Para Você!</h1><br />
+            <button type="button" onclick="location.href='@Url.Action("Create")'" class="btn">Quer Cadastrar sua Clínica?</button>
+            
+
+            <div class="clinicas-container">
+                @foreach (var item in Model)
+                {
+
+                    <div class="clinica-card">
+                        <h2>@Html.DisplayFor(modelItem => item.NomeClinica)</h2>
+                        <p><strong>Descrição:</strong> @Html.DisplayFor(modelItem => item.Descricao)</p>
+                        <a class="detalhes" asp-action="Details" asp-route-id="@item.Id">Clique aqui para mais detalhes!</a>
+                    </div>
+                }
+            </div>
+            <br />
+</body>
+        

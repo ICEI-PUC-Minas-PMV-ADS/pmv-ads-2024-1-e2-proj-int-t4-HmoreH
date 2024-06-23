@@ -1,0 +1,59 @@
+
+        .coluna-esquerda {
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 40px;
+            padding-left: 40px;
+            margin-top: 20px;
+            border-left: 500px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 1000;}
+        .coluna-direita {
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 40px;
+            margin-top: 20px;}
+        .card{
+            border-color: #ffffff;
+            text-align: left;
+            font-family: sans-serif;
+            font-weight: 600;
+            padding-top: 20px;
+            padding-bottom: 10px;}
+        .card-2 {
+            background-color: #135D66;
+            border-color: #135D66;
+            border-radius: 40px;
+            height: 100%;
+            padding-left: 20px;
+            color: white;
+            text-align: left;
+            font-family: sans-serif;
+            font-weight: 600;
+            padding-top: 20px;
+}
+        h5{
+            text-align: center;}
+
+        div.col-6{padding-right: 0px;}
+ul.lista-exmarcados {
+    list-style-type: none;
+    list-style-image: url('~/Imagens/notes.png');
+    font-size: 16px;
+    padding-left: 50px;
+    text-align: center;
+}
+ul.listarealizados {
+    list-style-type: none;
+    list-style-image: url('~/Imagens/check.png');
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+        li {
+            padding-bottom: 25px;}
+        
+                

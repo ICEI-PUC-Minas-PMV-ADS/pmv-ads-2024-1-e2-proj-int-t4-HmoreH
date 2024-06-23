@@ -1,0 +1,51 @@
+﻿@model TESTEBACKEND.Models.Cliente
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Cadastro</title>
+    <link rel="stylesheet" href="~/css/Cadastro.css">
+</head>
+<body>
+    <div class="background">
+        <div class="centerpage">
+            <br />
+            <h4>Cadastro do Paciente</h4>
+            <p>Bem-vindo ao nosso portal de clínicas para agendamento de consultas! 
+                Para começar a utilizar nossos serviços e marcar suas consultas de forma rápida e conveniente, é necessário criar uma conta. 
+                O cadastro é simples e permitirá que você tenha acesso a uma variedade de clínicas e profissionais de saúde em um único lugar.</p>
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="field-validation-error"></div>
+                <input type="text" placeholder="Nome" asp-for="Nome" class="form-control">
+                <span asp-validation-for="Nome" class="field-validation-error"></span>
+
+                <input type="email" placeholder="E-mail" asp-for="Email" class="form-control">
+                <span asp-validation-for="Email" class="field-validation-error"></span>
+
+                <input type="number" placeholder="Telefone" asp-for="Numero" class="form-control">
+                <span asp-validation-for="Numero" class="field-validation-error"></span>
+
+                <input type="date" placeholder="Data de Nascimento" asp-for="DataNascimento" class="form-control">
+                <span asp-validation-for="DataNascimento" class="field-validation-error"></span>
+
+                <input type="number" placeholder="CPF" asp-for="CPF" class="form-control">
+                <span asp-validation-for="CPF" class="field-validation-error"></span>
+
+                <input type="password" placeholder="Senha" asp-for="Senha" class="form-control">
+                <span asp-validation-for="Senha" class="field-validation-error"></span>
+                <input type="submit" value="Cadastrar" class="btn" />
+            </form>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+</body>
+</html>

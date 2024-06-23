@@ -1,0 +1,87 @@
+﻿@model TESTEBACKEND.Models.Cliente
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Cadastro</title>
+    <link rel="stylesheet" href="~/css/Login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 left">
+                <h2>Bem-vindo!</h2>
+                <br />
+                <p>Explore nossa plataforma para descobrir uma ampla variedade de clínicas e serviços disponíveis para agendamento.</p>
+                <br />
+                <button type="button" class="btn" onclick="location.href='@Url.Action("Create")'">Cadastre-se</button>
+                <br />
+                <br />
+                <p>É proprietário de uma clínica? Registre-a para expandir sua presença e alcançar novos clientes.</p>
+                <br />
+                <button type="button" class="btn" onclick="location.href='@Url.Action("Create","Clinicas")'">Cadastro de Clínica</button>
+            </div>
+
+            <div class="col-md-6">
+                <h1>Login</h1>
+                <form asp-action="Login" class="login-form">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="CPF" class="control-label">CPF/CNPJ</label>
+                        <input asp-for="CPF" class="form-control" />
+                        <span asp-validation-for="CPF" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Senha" class="control-label">Senha</label>
+                        <input asp-for="Senha" class="form-control" />
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+                        @{
+                            if (ViewBag.Message != null)
+                            {
+                                <div>
+                                    @ViewBag.Message
+                                </div>
+                            }
+                        }
+                    </div>
+                    <br />
+                    <input type="submit" value="Entrar" class="btn" />
+                    <div>
+                        <input type="checkbox" id="check" name="check">
+                        <label for="check">Manter conectado</label>
+                        <a id="forgPass" href="#">Esqueceu a senha?</a>
+                    </div>
+                </form>
+                <br />
+                <div class="button-container">
+                    <span style="text-align:center"><p>ou</p></span>
+                    <br />
+                    <p>Logar com</p>
+                    <button onclick="window.location.href = 'https://www.google.com';" id="social-icon-button">
+                        <img src="~/img/google-plus.png" alt="Ícone de login do Google+" id="social-icon">
+                        <span class="button-text">Google</span>
+                    </button>
+                    <button onclick="window.location.href = 'https://www.facebook.com';" id="social-icon-button">
+                        <img src="~/img/facebook.png" alt="Ícone de login do Facebook" id="social-icon">
+                        <span class="button-text">Facebook</span>
+                    </button>
+                    <button onclick="window.location.href = 'https://www.linkedin.com';" id="social-icon-button">
+                        <img src="~/img/linkedin.png" alt="Ícone de login do Linkedin" id="social-icon">
+                        <span class="button-text">Linkedin</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+</body>
+
+</html>

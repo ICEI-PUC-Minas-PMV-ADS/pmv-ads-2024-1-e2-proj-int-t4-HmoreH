@@ -1,0 +1,291 @@
+﻿@model IEnumerable<TESTEBACKEND.Models.Clinica>;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - TESTEBACKEND</title>
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="buttonsearch">
+        <input type="button" class="btn btn-primary" value="Pesquisar" data-bs-toggle="modal" data-bs-target="#filterModal">
+    </div>
+
+    <!-- Modal de Filtros -->
+    <div class="modal fade" id="filterModal" tabindex="-1" aria-labelledby="filterModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="filterModalLabel">Filtros de Pesquisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulário de Filtros -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="filterLocation" class="form-label">Serviços</label>
+                            <input type="text" class="form-control" id="filterLocation" placeholder="Digite o tipo de serviço">
+                        </div>
+                        <div class="mb-3">
+                            <label for="filterSpecialty" class="form-label">Especialidade</label>
+                            <input type="text" class="form-control" id="filterSpecialty" placeholder="Digite a especialidade">
+                        </div>
+                        <div class="mb-3">
+                            <label for="filterRating" class="form-label">Avaliação</label>
+                            <select class="form-select" id="filterRating">
+                                <option value="">Selecione a avaliação</option>
+                                <option value="1">1 estrela</option>
+                                <option value="2">2 estrelas</option>
+                                <option value="3">3 estrelas</option>
+                                <option value="4">4 estrelas</option>
+                                <option value="5">5 estrelas</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="./Resultado Card/resultados.html"><button type="button" class="btn btn-primary">Aplicar Filtros</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    @foreach (string item in ViewBag.especialidade)
+        {
+    <div class="card-container">
+            <a href="#" class="card">
+                <img src="./img/heart.png" alt="">
+            <div class="card-content">
+                    <h3>@Html.ActionLink(item, "mostrarEspecialidade", "Home", new
+                        {
+                           @especialidade = item
+                        }, null)
+                    </h3>
+                    <p>
+                    Especialidade médica focada em @item.
+                </p>
+            </div>
+        
+    </div>
+    }
+    <div class="card2-container">
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>Clínica Palhoça</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.
+                </p>
+            </div>
+        </a>
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>Clínica Palhoça</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.
+                </p>
+            </div>
+        </a>
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>Clínica Palhoça</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="clinic-container">
+        <img src="./img/clinica.jpg" alt="">
+        <div class="about">
+            <h3>Clínica Recuperar</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                totam.
+            </p>
+            <button type="button">Conheça nossos serviços</button>
+            <div class="social-icons">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    @foreach(var item in Model)
+    {
+    <div class="card2-container">
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>@item.NomeClinica</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.
+                </p>
+            </div>
+        </a>
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>@item.NomeClinica</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    @item.Descricao
+                </p>
+            </div>
+        </a>
+        <a href="#" class="card2">
+            <img src="./img/logoclinica.jpeg" alt="">
+            <div class="card2-content">
+                <h3>@item.NomeClinica</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quas laboriosam dolorem quasi
+                    totam.
+                </p>
+            </div>
+        </a>
+    </div>
+    }
+    <div id="servicos" class="service-container">
+        <h1></h1>
+        <div class="service-content">
+            <img src="/img/services.png" alt="">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere modi voluptates laboriosam beatae
+                itaque
+                aliquam tenetur pariatur eius saepe nam et eaque maiores quo repellat libero sunt, distinctio, dolore
+                aliquid.
+            </p>
+        </div>
+    </div>
+    <div id="sobre" class="about-container">
+        <h1>Sobre</h1>
+        <div class="about-content">
+            <div class="about-item">
+                <img src="/img/people.png" alt="">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et tenetur officiis harum incidunt
+                    voluptates nulla
+                    molestias ex pariatur deserunt reprehenderit tempora cum voluptatem quae, est, nihil delectus
+                    voluptas magni
+                    assumenda.
+                </p>
+            </div>
+            <div class="about-item">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et tenetur officiis harum incidunt
+                    voluptates nulla
+                    molestias ex pariatur deserunt reprehenderit tempora cum voluptatem quae, est, nihil delectus
+                    voluptas magni
+                    assumenda.
+                </p>
+                <img src="/img/ux.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="contato" class="contact-container">
+        <h1>Contato</h1>
+        <div class="contact-content">
+            <img src="/img/contato.png" alt="">
+            <div class="contact-form">
+                <input type="number" placeholder="Telefone">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Mensagem">
+                <button type="button">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <div id="scrollTopBtn">
+        <button onclick="scrollToTop()">Voltar ao topo</button>
+    </div>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', function () {
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            if (window.scrollY > 300) {
+                scrollTopBtn.style.display = 'block';
+            } else {
+                scrollTopBtn.style.display = 'none';
+            }
+            function scrollToSection(id) {
+                const section = document.getElementById(id);
+                if (section) {
+                    window.scrollTo({
+                        top: section.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+
+            document.querySelectorAll('.navbar-nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const sectionId = this.getAttribute('href').substring(1);
+                    scrollToSection(sectionId);
+                });
+            });
+
+        });
+    </script>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+</body>
+</html>

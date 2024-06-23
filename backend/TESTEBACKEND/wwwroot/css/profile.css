@@ -1,0 +1,25 @@
+﻿.img-profile{
+    width:150px;
+    height:120px;
+    border: solid 1px gray;
+    background-color:lightgrey;
+}
+
+/*h1 {
+    margin-right: 900px;
+}*/
+
+.header-container {
+    display: flex; /* Utiliza flexbox para layout flexível */
+    align-items: center; /* Alinha verticalmente os itens */
+}
+.btn {
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+#btn_agd {
+    width: 100%;
+}
