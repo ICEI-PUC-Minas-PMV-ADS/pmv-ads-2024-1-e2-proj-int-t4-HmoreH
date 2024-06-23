@@ -57,7 +57,8 @@
     @foreach (string item in ViewBag.especialidade)
         {
     <div class="card-container">
-        
+            <a href="#" class="card">
+                <img src="./img/heart.png" alt="">
             <div class="card-content">
                     <h3>@Html.ActionLink(item, "mostrarEspecialidade", "Home", new
                         {
@@ -134,9 +135,9 @@
             </p>
             <button type="button">Conheça nossos serviços</button>
             <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
