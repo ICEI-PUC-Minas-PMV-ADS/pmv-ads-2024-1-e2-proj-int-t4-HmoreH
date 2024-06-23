@@ -53,44 +53,24 @@
             </div>
         </div>
     </div>
+ 
+    @foreach (string item in ViewBag.especialidade)
+        {
     <div class="card-container">
-        <a href="#" class="card">
-            <img src="/img/heart.png" alt="">
+        
             <div class="card-content">
-                <h3>Cardiologia</h3>
-                <p>
-                    Especialidade médica focada no diagnóstico e tratamento de doenças e condições do coração e sistema circulatório.
+                    <h3>@Html.ActionLink(item, "mostrarEspecialidade", "Home", new
+                        {
+                           @especialidade = item
+                        }, null)
+                    </h3>
+                    <p>
+                    Especialidade médica focada em @item.
                 </p>
             </div>
-        </a>
-        <a href="#" class="card">
-            <img src="/img/brain.png" alt="">
-            <div class="card-content">
-                <h3>Neurologia</h3>
-                <p>
-                    Área da medicina que trata dos distúrbios do sistema nervoso, incluindo cérebro, medula espinhal e nervos periféricos.
-                </p>
-            </div>
-        </a>
-        <a href="#" class="card">
-            <img src="/img/x-ray.png" alt="">
-            <div class="card-content">
-                <h3>Radiografias</h3>
-                <p>
-                    Método de imagem médica que utiliza raios X para visualizar estruturas internas do corpo, ajudando no diagnóstico de várias condições.
-                </p>
-            </div>
-        </a>
-        <a href="#" class="card">
-            <img src="/img/stomach.png" alt="">
-            <div class="card-content">
-                <h3>Gastroenterologia</h3>
-                <p>
-                    Ramo da medicina que se concentra na saúde do sistema digestivo e seus distúrbios, abrangendo órgãos como estômago e intestinos.
-                </p>
-            </div>
-        </a>
+        
     </div>
+    }
     <div class="card2-container">
         <a href="#" class="card2">
             <img src="./img/logoclinica.jpeg" alt="">

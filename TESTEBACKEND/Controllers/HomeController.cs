@@ -19,8 +19,18 @@ namespace TESTEBACKEND.Controllers
         public IActionResult Index()
         {
             var consultorios = TodasAsClinicas.ToList();
+            var especialidade = TodasAsClinicas.Select(x => x.Especialidade).Distinct().ToList();
+            ViewBag.Especialidade = especialidade;
             return View(consultorios);
         }
+
+        public IActionResult mostrarEspecialidade(string especialidade)
+        {
+            var area = TodasAsClinicas.Where(x => x.Especialidade.ToLower() ==  especialidade.ToLower()).ToList();
+            ViewBag.Area = area;
+            return View(area);
+        }
+
 
         public IActionResult Privacy()
         {
