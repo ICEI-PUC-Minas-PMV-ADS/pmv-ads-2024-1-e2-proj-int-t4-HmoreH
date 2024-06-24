@@ -35,6 +35,7 @@ namespace TESTEBACKEND.Models
         //[Required(ErrorMessage = "Campo obrigatório. Por favor, informe a especialidade")]
         public string Especialidade { get; set; }
 
+        // Dados definidos para apresentação na home.
         public IEnumerable<Clinica> TodasAsClinicas()
         {
             var retorno = new Collection<Clinica>
