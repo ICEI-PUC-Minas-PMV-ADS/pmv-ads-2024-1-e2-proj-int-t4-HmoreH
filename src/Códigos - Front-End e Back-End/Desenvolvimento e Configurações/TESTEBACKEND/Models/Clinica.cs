@@ -32,7 +32,7 @@ namespace TESTEBACKEND.Models
         public int Contato { get; set; }
 
         public string Descricao { get; set; }
-        [Required(ErrorMessage = "Campo obrigatório. Por favor, informe a especialidade")]
+        //[Required(ErrorMessage = "Campo obrigatório. Por favor, informe a especialidade")]
         public string Especialidade { get; set; }
 
         public IEnumerable<Clinica> TodasAsClinicas()
