@@ -6,12 +6,23 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 
 
+**CT-02: Gerenciamento de Tarefas**
 
 
 
+**CT-03: Manipulação e exibição de dados cadastrais**
 
 
 
+**CT-04: Dados de consultórios**
+
+
+
+**CT-05: Filtros**
+
+
+
+**CT-06: Solicitação de transporte**
 
 
 > **Links Úteis**:
