@@ -36,14 +36,20 @@ Equipe de desenvolvimento: Guilherme Brito, Helena Lima, Mariana Vieira, Natan d
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Etapa 1
+Nessa etapa, discutimos a implementação do projeto. Inicialmente, analisamos todas as funcionalidades e criamos os requisitos que comporiam o projeto final. As funcionalidades e requisitos foram planejados para atender nosso público-alvo: pessoas idosas que procuram facilidades para acessar meios de cuidar da saúde. Desenvolvemos um site onde clínicas podem cadastrar seus serviços. Além disso, criamos protótipos iniciais para servir como base para o desenvolvimento subsequente.
 
+Etapa 2
+Com o grupo unido e cada membro com sua tarefa definida, desenvolvemos as páginas front-end, atendendo todos os requisitos propostos. Adequamos e aprimoramos os protótipos de baixa e alta fidelidade (wireframes) para garantir que a interface fosse intuitiva e funcional para nosso público-alvo. O trabalho colaborativo e a atenção aos detalhes foram essenciais para essa fase.
+
+Etapa 3
+Nesta etapa, começamos os estudos e a implementação do back-end. Dividimos as tarefas e criamos as tabelas do banco de dados para o projeto. Realizamos vários testes e ajustes para assegurar o bom funcionamento do banco de dados. A integração das funcionalidades do back-end com as necessidades do front-end foi cuidadosamente planejada e executada.
+
+Etapa 4
+A quarta etapa envolveu a integração do front-end com o back-end. Combinamos cada página correspondente com a lógica de back-end, utilizando o framework ASP.NET, conforme solicitado. Foram necessários diversos ajustes para garantir a harmonização entre o front-end e o back-end. Também implementamos o envio do projeto para a nuvem, utilizando o Azure, concluindo essa parte com sucesso.
+
+Etapa 5
+Na última etapa, realizamos os ajustes finais. Observamos criteriosamente todas as falhas, solucionando as identificadas e analisando as apresentadas para possíveis correções futuras. Essa etapa foi crucial para garantir a qualidade e a funcionalidade do produto final, proporcionando uma experiência satisfatória para os usuários.
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
