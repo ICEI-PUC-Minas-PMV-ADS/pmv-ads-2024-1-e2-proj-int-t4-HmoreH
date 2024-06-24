@@ -61,7 +61,7 @@ Escala de avaliação
 |Atividade a ser realizada	|Feedback do usuário* |Considerações (quais os problemas, deficiências, limitações, etc.)* |Sugestão de melhorias* |
 |--------------------|------------------------------|-----------|-------------|
 |Cadastro paciente	 | Página elegante, clara e precisa |Diz que não foi possível realizar o cadastro		    |             |
-Cadastro consultório |  Página bonita e clara nas informações que precisam ser passadas                            | Também diz que não foi possível fazer o cadastro		    |             |                        			
+Cadastro consultório |  Página bonita e clara nas informações que precisam ser passadas, cadastro realizado com sucesso                            |		    |Cards mais amigáveis             |                        			
 Login do paciente | Design sofisticado e com cores condizentes                  |Não foi possível realizar o login, já era de se esperar, sem cadastro...		    |             |		
 Login do consultório | Fácil de entender, página realmente bonita                             |Não foi possível realizar login		    |             |			
 Filtrar consultórios | Fácil de se compreender graças ao destaque das palavras chave                             |		    |Adicionar imagens aos cards             |			
