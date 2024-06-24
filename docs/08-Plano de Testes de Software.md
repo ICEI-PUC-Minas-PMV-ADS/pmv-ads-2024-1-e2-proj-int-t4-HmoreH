@@ -18,6 +18,7 @@ Abaixo, descrição do Plano de Testes de Software.
    <ul>
       <li>RF-001: A aplicação deve permitir que os usuários criem contas pessoais;</li>
       <li>RF-002:  aplicação deve permitir que o usuário realize login em sua conta pessoal.</li>
+      <li>RF-017: O sistema deve permitir o cadastro das clínicas</li>
    </ul>
   </td>
   <td>Verificar se os usuários podem criar contas pessoais, e confirmar que podem fazer login e logout em suas contas</td>
